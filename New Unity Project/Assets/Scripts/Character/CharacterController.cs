@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))
+[RequireComponent(typeof(CharacterController))]
 public class CharacterController : MonoBehaviour
 {
     private Vector3 position;

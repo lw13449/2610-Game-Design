@@ -7,4 +7,5 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    //Need to figure out how to instansiate this without a UI button. 
 }

@@ -15,7 +15,6 @@ public class CharacterControls : MonoBehaviour
         _controller = GetComponent<CharacterController>();
     }
 
-    
     void Update()
     {
         position.Set(0,-gravity, Input.GetAxis("Vertical")*moveSpeed);
@@ -24,7 +23,7 @@ public class CharacterControls : MonoBehaviour
         position.y -= gravity;
         position = transform.TransformDirection(position * moveSpeed * Time.deltaTime);
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetButtonDown("Jump")&&_controller.isGrounded)
         {
             position.y = jumpSpeed;
         }

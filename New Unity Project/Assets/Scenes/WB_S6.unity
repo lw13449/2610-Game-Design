@@ -377,6 +377,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -339
       objectReference: {fileID: 0}
+    - target: {fileID: 2736387924114610171, guid: 265b8ecb151b71a46ad09a35e5b01d66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c12ed56298719c949a36799bb9f44d86, type: 2}
+    - target: {fileID: 2736387924374931684, guid: 265b8ecb151b71a46ad09a35e5b01d66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c12ed56298719c949a36799bb9f44d86, type: 2}
     - target: {fileID: 2736387924384596311, guid: 265b8ecb151b71a46ad09a35e5b01d66,
         type: 3}
       propertyPath: field of view
@@ -389,6 +399,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 265b8ecb151b71a46ad09a35e5b01d66, type: 3}
+--- !u!1 &105608082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2736387925059471896, guid: 265b8ecb151b71a46ad09a35e5b01d66,
+    type: 3}
+  m_PrefabInstance: {fileID: 105608081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &105608083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105608082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5a7ed86549744fa58dacb42f4d105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  TriggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &179637041
 PrefabInstance:
   m_ObjectHideFlags: 0

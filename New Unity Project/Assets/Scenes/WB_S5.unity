@@ -4636,12 +4636,12 @@ PrefabInstance:
     - target: {fileID: 1205899276166301008, guid: 265b8ecb151b71a46ad09a35e5b01d66,
         type: 3}
       propertyPath: gravity
-      value: 100
+      value: 9.81
       objectReference: {fileID: 0}
     - target: {fileID: 1205899276166301008, guid: 265b8ecb151b71a46ad09a35e5b01d66,
         type: 3}
       propertyPath: jumpSpeed
-      value: 5000
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 2736387924384596305, guid: 265b8ecb151b71a46ad09a35e5b01d66,
         type: 3}
@@ -4717,6 +4717,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.x
       value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736387924384596311, guid: 265b8ecb151b71a46ad09a35e5b01d66,
+        type: 3}
+      propertyPath: far clip plane
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736387924384596311, guid: 265b8ecb151b71a46ad09a35e5b01d66,
+        type: 3}
+      propertyPath: field of view
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 265b8ecb151b71a46ad09a35e5b01d66, type: 3}

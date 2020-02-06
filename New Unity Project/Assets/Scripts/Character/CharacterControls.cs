@@ -7,7 +7,7 @@ public class CharacterControls : MonoBehaviour
     private CharacterController _controller;
     private Vector3 rotation;
 
-    public float moveSpeed = 10f, gravity = 9.81f, jumpSpeed = 30f;
+    public float moveSpeed = 10f, gravity = 9.81f, jumpSpeed = 80f;
     public float rotateSpeed = 2;
     
     void Start()
@@ -17,16 +17,19 @@ public class CharacterControls : MonoBehaviour
 
     void Update()
     {
-        position.Set(0,-gravity, Input.GetAxis("Vertical")*moveSpeed);
-        rotation.Set(0, Input.GetAxis("Horizontal"), 0);
-        transform.Rotate(rotation);
-        position.y -= gravity;
-        position = transform.TransformDirection(position * moveSpeed * Time.deltaTime);
-
-        if (Input.GetButtonDown("Jump")&&_controller.isGrounded)
+        if (_controller.isGrounded)
         {
-            position.y = jumpSpeed;
+            position = new Vector3(0, 0, Input.GetAxis("Vertical")*moveSpeed);
+            rotation.y = Input.GetAxis("Horizontal") * rotateSpeed;
+            transform.Rotate(rotation);
+            position = transform.TransformDirection(position * moveSpeed * Time.deltaTime);
         }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            position.y += jumpSpeed;
+        }
+        position.y -= gravity;
         _controller.Move(position * Time.deltaTime);
     }
 }

@@ -3295,28 +3295,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 775584047}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &780776259 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2442721673463515027, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 2442721673166159393}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &780776260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780776259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee142fa65c204a65aaa11ed31171ca65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IDNameObj:
-  - {fileID: 11400000, guid: fdf79256f3db6ef4d81cde2dc435f59d, type: 2}
-  - {fileID: 11400000, guid: 5b6047c7b0846f641aa229cca5169b34, type: 2}
-  trigger: {fileID: 0}
 --- !u!1 &810368684
 GameObject:
   m_ObjectHideFlags: 0
@@ -7325,18 +7303,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893953263}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1901097479 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7243804696274700743, guid: 4240562bff65f9541860b3ff59c18e68,
-    type: 3}
-  m_PrefabInstance: {fileID: 7243804695800394713}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8a4b873706e3cd42a45f5b9bc3fdf7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1903707422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7998,9 +7964,28 @@ PrefabInstance:
         type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1901097479}
-    m_RemovedComponents:
-    - {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
+      objectReference: {fileID: 7243804695800394714}
+    - target: {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: WB_S2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToNextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
 --- !u!1001 &2461397486331544214
 PrefabInstance:
@@ -8622,3 +8607,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4240562bff65f9541860b3ff59c18e68, type: 3}
+--- !u!114 &7243804695800394714 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7243804696274700743, guid: 4240562bff65f9541860b3ff59c18e68,
+    type: 3}
+  m_PrefabInstance: {fileID: 7243804695800394713}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a4b873706e3cd42a45f5b9bc3fdf7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

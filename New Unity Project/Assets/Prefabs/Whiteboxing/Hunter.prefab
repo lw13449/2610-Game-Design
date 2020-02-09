@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5698143273799013537}
   - component: {fileID: 8622403721203374938}
   - component: {fileID: 1292418063393128097}
+  - component: {fileID: 3067722301488447811}
   m_Layer: 0
   m_Name: Hunter
   m_TagString: Untagged
@@ -92,3 +93,16 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3067722301488447811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6768962465589679635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b6dfdfb86544d24918d1121d6caeb53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 0}

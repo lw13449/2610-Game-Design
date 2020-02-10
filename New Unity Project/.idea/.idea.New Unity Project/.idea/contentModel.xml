@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiWithNavMesh.cs" t="Include" />
+            <e p="EnemyPatrol.cs" t="Include" />
             <e p="MoveTo.cs" t="Include" />
             <e p="Patrol.cs" t="Include" />
           </e>

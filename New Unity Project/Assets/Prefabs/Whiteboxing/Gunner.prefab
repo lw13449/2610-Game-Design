@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8129421289838817468}
   - component: {fileID: 8129421289838817471}
   - component: {fileID: 8129421289838817470}
-  - component: {fileID: 8129421289838817469}
+  - component: {fileID: -7006128382876682332}
+  - component: {fileID: 5444366108806612940}
   m_Layer: 0
   m_Name: Gunner
   m_TagString: Untagged
@@ -92,7 +93,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8129421289838817469
+--- !u!195 &-7006128382876682332
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8129421289838817464}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &5444366108806612940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,9 +124,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8129421289838817464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ac7e26a058c47dba719250a0a350c28, type: 3}
+  m_Script: {fileID: 11500000, guid: d0821db54cc3c86458d8e026c712392a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  moveSpots: []
-  startWaitTime: 3
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

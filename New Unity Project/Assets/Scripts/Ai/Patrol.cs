@@ -8,11 +8,12 @@ public class Patrol : MonoBehaviour
     public Transform[] points;
     private int destPoint = 0;
     private NavMeshAgent agent;
+    public float speed = 10f;
     
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.autoBraking = false;
+        //agent.autoBraking = false;
         //so agent doesn't slow down when reaching the destination
         GoToNextPoint();
     }
@@ -23,9 +24,11 @@ public class Patrol : MonoBehaviour
         {
             return;
         }
-        //
+
+        agent.destination = points[destPoint].position;
 
         destPoint = (destPoint + 1) % points.Length;
+        agent.speed = speed;
     }
 
     public void Update()

@@ -8,7 +8,7 @@ public class Patrol : MonoBehaviour
     public Transform[] points;
     private int destPoint = 0;
     private NavMeshAgent agent;
-    public float speed = 10f;
+    public float speed;
     
     void Start()
     {

@@ -211,12 +211,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12279895}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &32673183 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6941001856324750318, guid: af47d9ba41a5f5e43b92cbdb622a286c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6941001855187230469}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &82828661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2814,21 +2808,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_Speed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_AngularSpeed
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_Acceleration
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 5444366108806612940, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
         type: 3}
       propertyPath: points.Array.data[0]
@@ -2853,6 +2832,21 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_Speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbefc17c0d94b5940a6fc9c39676e5d2, type: 3}
@@ -6201,7 +6195,7 @@ PrefabInstance:
     - target: {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
@@ -6243,7 +6237,37 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 100
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: IDNameObj.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: doWorks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: IDNameObj.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8b8b215784b6f324f91b8d477a55a18f,
+        type: 2}
+    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: doWorks.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 993a96e0817409341b5afc1310bb2b51,
+        type: 2}
+    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: doWorks.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c9de820c4b94114f8c417d360a72e7c,
+        type: 2}
+    m_RemovedComponents:
+    - {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
+    - {fileID: 1510573522159802738, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
 --- !u!1001 &3237490917689218170
 PrefabInstance:
@@ -6485,40 +6509,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
---- !u!114 &5458738586981243310
-MonoBehaviour:
+--- !u!65 &5458738586981243311
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5458738586981243306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df60dfb369dad974c9a5d6b060af0690, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IDNameObj: {fileID: 11400000, guid: e5a3a74a0ff37b344a341ee931dfceb4, type: 2}
-  EnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 32673183}
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: '"Gate is down"'
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  ExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  serializedVersion: 2
+  m_Size: {x: 17, y: 17, z: 17}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5719297411144906227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6675,21 +6678,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1440814394}
     m_Modifications:
-    - target: {fileID: 2575264116468900270, guid: 4240562bff65f9541860b3ff59c18e68,
-        type: 3}
-      propertyPath: EnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7243804695800394714}
-    - target: {fileID: 2575264116468900270, guid: 4240562bff65f9541860b3ff59c18e68,
-        type: 3}
-      propertyPath: EnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoToNextScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 2575264116468900270, guid: 4240562bff65f9541860b3ff59c18e68,
-        type: 3}
-      propertyPath: EnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: WB_S2
-      objectReference: {fileID: 0}
     - target: {fileID: 7243804696274700740, guid: 4240562bff65f9541860b3ff59c18e68,
         type: 3}
       propertyPath: m_Name
@@ -6760,6 +6748,27 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 102.25008
       objectReference: {fileID: 0}
+    - target: {fileID: 2575264116468900270, guid: 4240562bff65f9541860b3ff59c18e68,
+        type: 3}
+      propertyPath: EnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7243804695800394714}
+    - target: {fileID: 2575264116468900270, guid: 4240562bff65f9541860b3ff59c18e68,
+        type: 3}
+      propertyPath: EnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToNextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575264116468900270, guid: 4240562bff65f9541860b3ff59c18e68,
+        type: 3}
+      propertyPath: EnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: WB_S2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575264116468900270, guid: 4240562bff65f9541860b3ff59c18e68,
+        type: 3}
+      propertyPath: IDNameObj
+      value: 
+      objectReference: {fileID: 11400000, guid: 8b8b215784b6f324f91b8d477a55a18f,
+        type: 2}
     - target: {fileID: 7243804696274700742, guid: 4240562bff65f9541860b3ff59c18e68,
         type: 3}
       propertyPath: m_IsTrigger

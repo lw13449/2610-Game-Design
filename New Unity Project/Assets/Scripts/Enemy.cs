@@ -11,11 +11,14 @@ public class Enemy : MonoBehaviour
     public GameObject sparkEffect;
     public float attackPause;
     public float startAttackPause;
+    public NavMeshAgent enemy;
+    public GameObject character;
     
 
     public void Start()
     {
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        character = GameObject.FindGameObjectWithTag("Player");
+        enemy = GetComponent<NavMeshAgent>();
         //they should ignore the update scripts for movement 
         //until the player comes within their area and 
         //initiate their attack for NavMesh towards
@@ -24,6 +27,7 @@ public class Enemy : MonoBehaviour
 
     public void Update()
     {
+        enemy.destination = character.transform.position;
         //Call Navmesh agent to start attacking player when in the same area
         //Perhaps it doesn't need a script for this
         //But will need for the scripting underneath

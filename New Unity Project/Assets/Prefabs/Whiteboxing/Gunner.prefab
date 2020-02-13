@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: -7006128382876682332}
   - component: {fileID: 5444366108806612940}
   - component: {fileID: -6831183514104988038}
-  m_Layer: 0
+  - component: {fileID: 5347899148812891422}
+  m_Layer: 11
   m_Name: Gunner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,4 +147,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8a4fa362554be2953c52e3305fc38f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 15
+  radius: 50
+--- !u!114 &5347899148812891422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8129421289838817464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fd30e69d63466287ac0d2c4d52bcf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
+  speed: 1
+  sparkEffect: {fileID: 4388898970792426474, guid: 94991617745e21c42bf743a418c2aa3b,
+    type: 3}
+  attackPause: 1
+  startAttackPause: 1
+  enemy: {fileID: -7006128382876682332}
+  character: {fileID: 2442721673463515027, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}

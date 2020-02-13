@@ -8,6 +8,8 @@ public class IDSystem : MonoBehaviour
 {
     public List<NameID> IDNameObj;
     public BehaviourID trigger;
+    private NameID nameIdObj;
+    public List<DoWork> doWorks;
 
     public void Start()
     {
@@ -16,17 +18,22 @@ public class IDSystem : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        var nameIdObj = other.GetComponent<BehaviourID>().IDNameObj;
-        if (nameIdObj == null) return;
-        var otherNameID = nameIdObj;
-        
-        foreach (var ID in IDNameObj)
-        {
-            if (ID == otherNameID)
-            {
-                //do work;
-                return;
+        nameIdObj = other.GetComponent<BehaviourID>().IDNameObj;
+        CheckID();
+        //if (nameIdObj == null) return;
+       // var otherNameID = nameIdObj;
+    }
 
+    private void CheckID()
+    {
+        foreach (var obj in IDNameObj)
+        {
+            if (obj == nameIdObj)
+            {
+                foreach (var job in doWorks)
+                {
+                    job.Work();
+                }
             }
         }
     }

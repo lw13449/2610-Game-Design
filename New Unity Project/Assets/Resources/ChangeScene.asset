@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fb79192f7e143cfb3f43a60b10e0796, type: 3}
-  m_Name: Doorway
+  m_Script: {fileID: 11500000, guid: c82c0546952b418d8f66a9b10345176d, type: 3}
+  m_Name: ChangeScene
   m_EditorClassIdentifier: 
-  IDNum: 0
+  dataObj: {fileID: 0}

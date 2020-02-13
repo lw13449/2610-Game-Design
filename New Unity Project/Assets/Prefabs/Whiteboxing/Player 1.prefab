@@ -280,6 +280,8 @@ GameObject:
   - component: {fileID: 2442721673463515029}
   - component: {fileID: 4432469032766940240}
   - component: {fileID: 81803813420087784}
+  - component: {fileID: 9183650510303802732}
+  - component: {fileID: 1510573522159802738}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -411,6 +413,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9183650510303802732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2442721673463515027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee142fa65c204a65aaa11ed31171ca65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDNameObj:
+  - {fileID: 11400000, guid: 5b6047c7b0846f641aa229cca5169b34, type: 2}
+  - {fileID: 11400000, guid: fdf79256f3db6ef4d81cde2dc435f59d, type: 2}
+  trigger: {fileID: 0}
+  doWorks:
+  - {fileID: 11400000, guid: 993a96e0817409341b5afc1310bb2b51, type: 2}
+--- !u!136 &1510573522159802738
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2442721673463515027}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 10
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: -27, z: 0}
 --- !u!1 &6893988206809324078
 GameObject:
   m_ObjectHideFlags: 0

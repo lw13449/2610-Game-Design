@@ -9,6 +9,6 @@ public class DoorSwitch : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        eventAction.Invoke();
+        door.transform.position = new Vector3(0, 10, 0);
     }
 }

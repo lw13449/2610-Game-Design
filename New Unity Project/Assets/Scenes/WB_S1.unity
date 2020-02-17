@@ -2630,6 +2630,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 775584047}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &798786813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2442721673463515027, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 2442721673166159393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &810368684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,6 +2852,16 @@ PrefabInstance:
     - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
         type: 3}
       propertyPath: m_Acceleration
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347899148812891422, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 798786813}
+    - target: {fileID: 5347899148812891422, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: lookRadius
       value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4881,6 +4897,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629078035}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1661095275 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6941001856324750318, guid: af47d9ba41a5f5e43b92cbdb622a286c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6941001855187230469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1697747208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6192,6 +6214,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
@@ -6227,16 +6259,6 @@ PrefabInstance:
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 5458738586981243306}
-    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: jumpSpeed
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: IDNameObj.Array.size
@@ -6485,7 +6507,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1445765346669852154, guid: ef27de21c32f8f9419d3dae296a28c76, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ef27de21c32f8f9419d3dae296a28c76, type: 3}
 --- !u!1 &5458738586981243306 stripped
 GameObject:
@@ -6522,6 +6545,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 17, y: 17, z: 17}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5458738586981243312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458738586981243306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4602ad0b03d341e085e7e5c59f1b7d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 1661095275}
+  eventAction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &5719297411144906227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6696,7 +6737,7 @@ PrefabInstance:
     - target: {fileID: 7243804696274700792, guid: 4240562bff65f9541860b3ff59c18e68,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.225006
+      value: -15.9
       objectReference: {fileID: 0}
     - target: {fileID: 7243804696274700792, guid: 4240562bff65f9541860b3ff59c18e68,
         type: 3}

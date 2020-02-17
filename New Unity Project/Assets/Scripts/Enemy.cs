@@ -11,8 +11,8 @@ public class Enemy : MonoBehaviour
 
     private Animator anim;
     public GameObject sparkEffect;
-    public float attackPause;
-    public float startAttackPause;
+    //public float attackPause;
+    //public float startAttackPause;
     public NavMeshAgent enemy;
     public GameObject character;
     
@@ -46,15 +46,15 @@ public class Enemy : MonoBehaviour
             FaceTarget();
         }
         
-        if (attackPause <= 0)
-        {
-            speed = 5;
-        }
-        else
-        {
-            speed = 0;
-            attackPause = startAttackPause;
-        }
+        //if (attackPause <= 0)
+        //{
+        //    speed = 5;
+        //}
+        //else
+        //{
+        //    speed = 0;
+        //    attackPause = startAttackPause;
+        //}
         
         if (health <= 0)
         {

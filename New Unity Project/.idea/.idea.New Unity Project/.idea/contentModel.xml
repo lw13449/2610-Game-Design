@@ -18,11 +18,16 @@
             <e p="CharacterControls.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
+            <e p="PlayerOnPlatform.cs" t="Include" />
           </e>
+          <e p="DoorSwitch.cs" t="Include" />
+          <e p="DoWork.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="IDs" t="Include">
             <e p="BehaviourID.cs" t="Include" />
             <e p="IDSystem.cs" t="Include" />
+            <e p="MathBehaviour.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
           </e>
           <e p="IntData.cs" t="Include" />

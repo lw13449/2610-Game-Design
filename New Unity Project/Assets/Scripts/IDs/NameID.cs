@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(menuName = "Single Variables/NameID") ]
+[CreateAssetMenu]
 public class NameID : ScriptableObject
 {
-    public int IDNum;
+    
 }

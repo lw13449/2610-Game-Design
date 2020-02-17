@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+﻿<?xml version="1.0" encoding="UTF-8"?>
+=======
+<<<<<<< HEAD
+﻿<?xml version="1.0" encoding="UTF-8"?>
+=======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -11,6 +17,8 @@
 =======
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 >>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b92ce6d8-d481-4ef1-a53d-1882666106b0" name="Default Changelist" comment="" />
@@ -23,6 +31,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -35,6 +47,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
   <component name="ProjectId" id="1WoDs8FurU45jh7XK84SwDteW5Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -65,6 +79,10 @@
       <option name="presentableId" value="Default" />
       <updated>1579807257905</updated>
       <workItem from="1579807260505" duration="9000" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -75,12 +93,20 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+=======
+<<<<<<< HEAD
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+=======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -94,12 +120,20 @@
 =======
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
 >>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
+            <State />
+=======
+<<<<<<< HEAD
+            <State />
+=======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -115,6 +149,8 @@
 =======
             <State />
 >>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
           </value>
         </entry>
       </map>

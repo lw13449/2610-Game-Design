@@ -12,4 +12,5 @@ public class MatchIdBehaviour : IdBehaviour
     }
 
     public List<possibleMatches> workIdList;
+    //public WorkSystemManager workManagerObj;
 }

@@ -20,5 +20,5 @@ public class FloatMathSystem : WorkSystem
     {
         dataObj.value = fromNameId.value;
     }
-    public void 
+    //other to do work items you might need
 }

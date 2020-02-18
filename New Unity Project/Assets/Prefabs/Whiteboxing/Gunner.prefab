@@ -148,11 +148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2
   speed: 1
-  lookRadius: 10
+  lookRadius: 100
   sparkEffect: {fileID: 4388898970792426474, guid: 94991617745e21c42bf743a418c2aa3b,
     type: 3}
-  attackPause: 1
-  startAttackPause: 1
   enemy: {fileID: -7006128382876682332}
   character: {fileID: 2442721673463515027, guid: fe046aee4c2e9d74fb28304f5a0451ca,
     type: 3}

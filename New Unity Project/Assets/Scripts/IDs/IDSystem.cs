@@ -9,7 +9,7 @@ public class IDSystem : MonoBehaviour
     public List<NameID> IDNameObj;
     public BehaviourID trigger;
     private NameID nameIdObj;
-    public List<DoWork> doWorks;
+    public List<WorkSystem> doWorks;
 
     public void Start()
     {

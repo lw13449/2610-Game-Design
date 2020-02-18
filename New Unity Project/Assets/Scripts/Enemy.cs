@@ -20,12 +20,8 @@ public class Enemy : MonoBehaviour
     public void Start()
     {
         target = character.transform;
-        character = GameObject.FindGameObjectWithTag("Player");
+        character = GameObject.Find("Player");
         enemy = GetComponent<NavMeshAgent>();
-        //they should ignore the update scripts for movement 
-        //until the player comes within their area and 
-        //initiate their attack for NavMesh towards
-        //the player
     }
 
     public void Update()

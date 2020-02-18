@@ -6147,6 +6147,85 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &577005784354603105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 577005785458899673, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_Name
+      value: Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1742.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 166.71065
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -225.28935
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785458899672, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577005785718492813, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_LookAt
+      value: 
+      objectReference: {fileID: 2442721673166159394}
+    - target: {fileID: 577005785718492813, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 2442721673166159394}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 29eb19fdfb4a3a84f8aada239f56fed3, type: 3}
 --- !u!1001 &2442721673166159393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6222,7 +6301,7 @@ PrefabInstance:
     - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: moveSpeed
-      value: 100
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
@@ -6291,6 +6370,12 @@ PrefabInstance:
     - {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
     - {fileID: 1510573522159802738, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
+--- !u!4 &2442721673166159394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2442721673463515026, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 2442721673166159393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3237490917689218170
 PrefabInstance:
   m_ObjectHideFlags: 0

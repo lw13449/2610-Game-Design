@@ -195,8 +195,8 @@ GameObject:
   - component: {fileID: 5458738588040706556}
   - component: {fileID: -8647563442888467466}
   - component: {fileID: 2903880159866279046}
-  - component: {fileID: 1445765346669852154}
   - component: {fileID: 1113487798660514537}
+  - component: {fileID: 6042356831798697407}
   m_Layer: 0
   m_Name: Switch
   m_TagString: Untagged
@@ -249,41 +249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 40
---- !u!114 &1445765346669852154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5458738588040706557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df60dfb369dad974c9a5d6b060af0690, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IDNameObj: {fileID: 11400000, guid: 5b6047c7b0846f641aa229cca5169b34, type: 2}
-  EnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6941001856324750318, guid: af47d9ba41a5f5e43b92cbdb622a286c,
-          type: 3}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  ExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!65 &1113487798660514537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -297,3 +262,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 17, y: 17, z: 17}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6042356831798697407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458738588040706557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4602ad0b03d341e085e7e5c59f1b7d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  eventAction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

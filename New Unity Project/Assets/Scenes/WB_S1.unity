@@ -2834,6 +2834,16 @@ PrefabInstance:
       propertyPath: m_Acceleration
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5444366108806612940, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
         type: 3}
       propertyPath: points.Array.data[0]
@@ -6248,6 +6258,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: IDNameObj.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: doWorks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IDNameObj.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8b8b215784b6f324f91b8d477a55a18f,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: doWorks.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 993a96e0817409341b5afc1310bb2b51,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: doWorks.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c9de820c4b94114f8c417d360a72e7c,
+        type: 2}
     - target: {fileID: 2442721673463515027, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: m_Name
@@ -6353,34 +6386,6 @@ PrefabInstance:
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 5458738586981243306}
-    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: IDNameObj.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: doWorks.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: IDNameObj.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: 8b8b215784b6f324f91b8d477a55a18f,
-        type: 2}
-    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: doWorks.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 993a96e0817409341b5afc1310bb2b51,
-        type: 2}
-    - target: {fileID: 9183650510303802732, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: doWorks.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 8c9de820c4b94114f8c417d360a72e7c,
-        type: 2}
     - target: {fileID: 4432469032766940240, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: whatIsEnemy.m_Bits
@@ -6394,6 +6399,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2442721673463515029, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
     - {fileID: 1510573522159802738, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
+    - {fileID: -2115676452752529058, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
 --- !u!4 &2442721673166159394 stripped
 Transform:

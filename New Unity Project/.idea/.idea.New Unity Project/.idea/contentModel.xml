@@ -21,6 +21,7 @@
             <e p="PlayerOnPlatform.cs" t="Include" />
           </e>
           <e p="DoorSwitch.cs" t="Include" />
+          <e p="DoWork.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="IDs" t="Include">
@@ -29,6 +30,7 @@
             <e p="IdBehaviour.cs" t="Include" />
             <e p="IDSystem.cs" t="Include" />
             <e p="MatchIdBehaviour.cs" t="Include" />
+            <e p="MathBehaviour.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
             <e p="WorkSystemManager.cs" t="Include" />
           </e>

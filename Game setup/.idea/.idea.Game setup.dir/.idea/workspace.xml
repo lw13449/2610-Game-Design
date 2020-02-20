@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 =======
@@ -23,6 +24,9 @@
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> Stashed changes
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b92ce6d8-d481-4ef1-a53d-1882666106b0" name="Default Changelist" comment="" />
@@ -35,6 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -56,6 +61,8 @@
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
   <component name="ProjectId" id="1WoDs8FurU45jh7XK84SwDteW5Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -86,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579807257905</updated>
       <workItem from="1579807260505" duration="9000" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -105,12 +113,15 @@
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
 =======
@@ -136,12 +147,16 @@
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+>>>>>>> Stashed changes
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
             <State />
 =======
@@ -169,6 +184,9 @@
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+            <State />
+>>>>>>> Stashed changes
           </value>
         </entry>
       </map>

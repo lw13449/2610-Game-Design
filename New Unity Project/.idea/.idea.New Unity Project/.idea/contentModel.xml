@@ -26,14 +26,20 @@
           <e p="FloatData.cs" t="Include" />
           <e p="IDs" t="Include">
             <e p="BehaviourID.cs" t="Include" />
+            <e p="FloatMathSystem.cs" t="Include" />
+            <e p="IdBehaviour.cs" t="Include" />
             <e p="IDSystem.cs" t="Include" />
+            <e p="MatchIdBehaviour.cs" t="Include" />
             <e p="MathBehaviour.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
+            <e p="WorkSystemManager.cs" t="Include" />
           </e>
           <e p="IntData.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
           <e p="TriggerEventBehaviour.cs" t="Include" />
+          <e p="WeaponPickUp.cs" t="Include" />
+          <e p="WorkSystem.cs" t="Include" />
         </e>
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />

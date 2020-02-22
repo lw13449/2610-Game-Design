@@ -2819,31 +2819,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_Speed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_AngularSpeed
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_Acceleration
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_StoppingDistance
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_AutoBraking
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5444366108806612940, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
         type: 3}
       propertyPath: points.Array.data[0]
@@ -2883,6 +2858,31 @@ PrefabInstance:
         type: 3}
       propertyPath: health
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_Speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbefc17c0d94b5940a6fc9c39676e5d2, type: 3}

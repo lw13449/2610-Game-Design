@@ -34,6 +34,11 @@ public class CharacterAttack : MonoBehaviour
         {
             timeBtwAttack -= Time.deltaTime;
         }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            characterAnim.SetTrigger("Deflect");
+        }
     }
 
     public void OnDrawGizmosSelected()

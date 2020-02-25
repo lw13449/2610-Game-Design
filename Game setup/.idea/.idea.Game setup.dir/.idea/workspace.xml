@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 =======
@@ -27,6 +28,9 @@
 =======
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 >>>>>>> Stashed changes
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> Stashed changes
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b92ce6d8-d481-4ef1-a53d-1882666106b0" name="Default Changelist" comment="" />
@@ -39,6 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
@@ -61,6 +66,8 @@
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   <component name="ProjectId" id="1WoDs8FurU45jh7XK84SwDteW5Z" />
@@ -94,6 +101,7 @@
       <updated>1579807257905</updated>
       <workItem from="1579807260505" duration="9000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -115,12 +123,15 @@
 >>>>>>> master
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< HEAD
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
@@ -150,12 +161,16 @@
 =======
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
 >>>>>>> Stashed changes
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+>>>>>>> Stashed changes
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< HEAD
             <State />
@@ -184,6 +199,9 @@
 >>>>>>> master
 >>>>>>> master
 >>>>>>> master
+=======
+            <State />
+>>>>>>> Stashed changes
 =======
             <State />
 >>>>>>> Stashed changes

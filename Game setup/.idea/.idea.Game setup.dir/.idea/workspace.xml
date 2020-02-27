@@ -1,4 +1,40 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+﻿<?xml version="1.0" encoding="UTF-8"?>
+=======
+<<<<<<< HEAD
+﻿<?xml version="1.0" encoding="UTF-8"?>
+=======
+<<<<<<< HEAD
+﻿<?xml version="1.0" encoding="UTF-8"?>
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<?xml version="1.0" encoding="UTF-8"?>
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> Stashed changes
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> Stashed changes
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> Stashed changes
+=======
+﻿<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> Stashed changes
+>>>>>>> master
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b92ce6d8-d481-4ef1-a53d-1882666106b0" name="Default Changelist" comment="" />
@@ -11,6 +47,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../New Unity Project/Assets/Scripts/Character/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
   <component name="ProjectId" id="1WoDs8FurU45jh7XK84SwDteW5Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -41,20 +107,122 @@
       <option name="presentableId" value="Default" />
       <updated>1579807257905</updated>
       <workItem from="1579807260505" duration="9000" />
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      <workItem from="1580830072715" duration="20000" />
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+=======
+<<<<<<< HEAD
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+=======
+<<<<<<< HEAD
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+>>>>>>> Stashed changes
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+>>>>>>> Stashed changes
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+>>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+>>>>>>> Stashed changes
+=======
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+>>>>>>> Stashed changes
+>>>>>>> master
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State />
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+            <State />
+=======
+<<<<<<< HEAD
+            <State />
+=======
+<<<<<<< HEAD
+            <State />
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+=======
+            <State />
+>>>>>>> Stashed changes
+=======
+            <State />
+>>>>>>> Stashed changes
+=======
+            <State />
+>>>>>>> Stashed changes
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
+=======
+            <State />
+>>>>>>> Stashed changes
+=======
+            <State />
+>>>>>>> Stashed changes
+>>>>>>> master
           </value>
         </entry>
       </map>

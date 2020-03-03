@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,18 +10,4 @@ public class MoveTo : MonoBehaviour
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
         agent.destination = goal.position;
     }
-=======
-﻿using UnityEngine;
-using UnityEngine.AI;
-
-public class MoveTo : MonoBehaviour
-{
-    public Transform goal;
-
-    public void Start()
-    {
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
-        agent.destination = goal.position;
-    }
->>>>>>> master
 }

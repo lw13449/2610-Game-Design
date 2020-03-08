@@ -1932,6 +1932,11 @@ PrefabInstance:
       propertyPath: points.Array.data[3]
       value: 
       objectReference: {fileID: 466845950}
+    - target: {fileID: 1354328445773183389, guid: b8fde807f68a5b3479e9516d3b02a71e,
+        type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1401254296829774671, guid: b8fde807f68a5b3479e9516d3b02a71e,
         type: 3}
       propertyPath: lookRadius

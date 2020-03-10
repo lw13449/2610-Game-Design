@@ -6,6 +6,10 @@ using Object = System.Object;
 public class WeaponPickUp : MonoBehaviour
 {
     public GameObject shield;
+    public GameObject groundFuryAttack;
+    public GameObject furyAttack;
+    public GameObject groundHammerSmash;
+    public GameObject hammerSmash;
     public GameObject UI;
     public GameObject groundShield;
     
@@ -24,6 +28,34 @@ public class WeaponPickUp : MonoBehaviour
                 {
                     groundShield.SetActive(false);
                     shield.SetActive(true);
+                }
+            }
+            else
+            {
+                UI.SetActive(false);
+            }
+
+            if (hit.collider.tag == "hammersmash")
+            {
+                UI.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.D))
+                {
+                    groundHammerSmash.SetActive(false);
+                    hammerSmash.SetActive(true);
+                }
+            }
+            else
+            {
+                UI.SetActive(false);
+            }
+
+            if (hit.collider.tag == "furyattack")
+            {
+                UI.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.G))
+                {
+                    groundFuryAttack.SetActive(false);
+                    furyAttack.SetActive(true);
                 }
             }
             else

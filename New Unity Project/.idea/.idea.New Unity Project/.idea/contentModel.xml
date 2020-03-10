@@ -17,6 +17,7 @@
             <e p="CharacterAttack.cs" t="Include" />
             <e p="CharacterControls.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
             <e p="PlayerOnPlatform.cs" t="Include" />
           </e>

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 
+ //[RequireComponent(typeof())]
 public class CharacterAttack : MonoBehaviour
 {
     private float timeBtwAttack;

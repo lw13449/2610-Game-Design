@@ -27,10 +27,8 @@ public class Enemy : MonoBehaviour
     public void Update()
     {
         float distance = Vector3.Distance(character.transform.position, transform.position);
-        //enemy.destination = character.transform.position;
+        enemy.destination = character.transform.position;
         //Call Navmesh agent to start attacking player when in the same area
-        //Perhaps it doesn't need a script for this
-        //But will need for the scripting underneath
         if (distance <= lookRadius)
         {
             enemy.SetDestination(target.position);
@@ -56,7 +54,7 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        //transform.Translate(Vector2.left *speed*Time.deltaTime);
+        transform.Translate(Vector2.left *speed*Time.deltaTime);
     }
 
     public void FaceTarget()

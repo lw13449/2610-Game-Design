@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+public class SceneChangerBehaviour : MonoBehaviour
 {
     public void GoToNextScene(string sceneName)
     {

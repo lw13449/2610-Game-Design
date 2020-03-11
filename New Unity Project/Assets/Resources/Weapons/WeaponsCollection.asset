@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: WeaponsCollection
   m_EditorClassIdentifier: 
   collectablesList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 8dc642636229f2f46abe6ce867db9316, type: 2}
+  - {fileID: 11400000, guid: b433b91d269067142b2fefdbeed189f9, type: 2}
+  - {fileID: 11400000, guid: bbfd8304bce8e0f49893fc57216ed1f4, type: 2}
+  - {fileID: 11400000, guid: c2d23c56982dc6f48b5dd0d46342ab98, type: 2}
   currentCollectableNum: 0

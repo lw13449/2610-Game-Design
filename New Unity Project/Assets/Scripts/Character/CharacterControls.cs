@@ -32,7 +32,7 @@ public class CharacterControls : MonoBehaviour
         position.y -= gravity;
         _controller.Move(position * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             //This is where you either set the switch to true to deactivate gates
             //also plug into Motherboard when in trigger area, and boot health to full

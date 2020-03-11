@@ -7,6 +7,7 @@ public class WeaponCollectable : Collectable
     public UnityEvent useEvent;
     public Animator characterAnim;
     public float enemyHealth;
+    public GameObject obj;
 
     public override void Use()
     {
@@ -15,7 +16,7 @@ public class WeaponCollectable : Collectable
 
     public void Equip()
     {
-        
+        obj.SetActive(true);
     }
 
     public void Defend()

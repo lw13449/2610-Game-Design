@@ -23,6 +23,7 @@
           </e>
           <e p="Collections" t="Include">
             <e p="Collectable.cs" t="Include" />
+            <e p="CollectablePickup.cs" t="Include" />
             <e p="Collection.cs" t="Include" />
             <e p="Lists.cs" t="Include" />
             <e p="WeaponCollectable.cs" t="Include" />

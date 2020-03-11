@@ -68,7 +68,6 @@ public class Enemy : MonoBehaviour
     {
         //noise for attack when they take damage
         Instantiate(sparkEffect, transform.position, Quaternion.identity);
-        health -= damage;
         Debug.Log("damage Taken");
     }
 

@@ -10,6 +10,10 @@ public class SceneChange : ScriptableObject
         var newName = sceneName.name;
         SceneManager.LoadScene(newName);
     }
+    public void GoToNextScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 
     public void OnTriggerEnter()
     {

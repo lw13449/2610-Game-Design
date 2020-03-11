@@ -5,22 +5,40 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WB_S1.unity
     guid: 318a43bc313f35947aaf42201b97734d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WB_S2.unity
     guid: 3247a0051a681774ebb5f5c0dbdf6955
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WB_S3.unity
     guid: bb3c8b142de048441b4e06fc02e384af
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WB_S4.unity
     guid: 2432a3aa7bb37744294796c3986478e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WB_S5.unity
     guid: 88816e9032d649247a64ca624bf6bb68
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WB_S6.unity
     guid: 995a0a17eb5edd14196d6d7131cf0049
+  - enabled: 1
+    path: Assets/Scenes/1.unity
+    guid: 469500a9015dd2c41a09b0fc0c8ebd0c
+  - enabled: 1
+    path: Assets/Scenes/2.unity
+    guid: e055a1a8617f1174e81ee061682c4f70
+  - enabled: 1
+    path: Assets/Scenes/3.unity
+    guid: 5f4c90282536da344a17c339ca2a99a3
+  - enabled: 1
+    path: Assets/Scenes/4.unity
+    guid: 81216cd223b7eb64097d1fc1f89190df
+  - enabled: 1
+    path: Assets/Scenes/5.unity
+    guid: e2487a1248b1ad246b3c9528651566fd
+  - enabled: 1
+    path: Assets/Scenes/6.unity
+    guid: ce14374146bc59f4fa620d502864733a
   m_configObjects: {}

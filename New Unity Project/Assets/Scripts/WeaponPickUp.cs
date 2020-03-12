@@ -18,7 +18,7 @@ public class WeaponPickUp : MonoBehaviour
     {
         Vector3 fwd = transform.TransformDirection((Vector3.forward));
         RaycastHit hit = new RaycastHit();
-        Ray ray;
+        //Ray ray;
         if (Physics.Raycast(transform.position, fwd, out hit))
         {
             if (hit.collider.tag == "shield")

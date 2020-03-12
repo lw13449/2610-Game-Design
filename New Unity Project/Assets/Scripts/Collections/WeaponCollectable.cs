@@ -21,7 +21,7 @@ public class WeaponCollectable : Collectable
 
     public void Defend()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             characterAnim.SetTrigger("Defend");
             //negates the damage the enemy throws at Player
@@ -31,7 +31,7 @@ public class WeaponCollectable : Collectable
     public void Attack()
     {
         
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             characterAnim.SetTrigger("Attack");
             Debug.Log("Strike");

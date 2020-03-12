@@ -22,7 +22,7 @@ public class CharacterCombat : MonoBehaviour
     {
         attackCoolDown -= Time.deltaTime;
     }
-
+    
     public void Attack(CharacterStats targetStats)
     {
         if (attackCoolDown <= 0f)
@@ -40,6 +40,5 @@ public class CharacterCombat : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         stats.TakeDamage(myStats.damage.GetValue());
-        
     }
 }

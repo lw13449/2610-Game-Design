@@ -7,7 +7,7 @@ public class CharacterStats : MonoBehaviour
     public Stat damage;
     public Stat shield;
 
-    public HealthBar healthBar;
+    //public HealthBar healthBar;
 
     private void Awake()
     {
@@ -16,7 +16,7 @@ public class CharacterStats : MonoBehaviour
 
     private void Start()
     {
-        if (healthBar != null) healthBar.SetMaxHealth(maxHealth);
+        //if (healthBar != null) healthBar.SetMaxHealth(maxHealth);
     }
 
     public void Update()
@@ -38,7 +38,7 @@ public class CharacterStats : MonoBehaviour
         {
             Die();
         }
-        healthBar.SetHealth(currentHealth);
+        //healthBar.SetHealth(currentHealth);
     }
 
     public virtual void Die()

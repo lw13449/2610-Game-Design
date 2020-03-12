@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class SceneChange : ScriptableObject
 {
-    private Object scene;
+    //private Object scene;
     public void LoadScene(Object sceneName)
     {
         var newName = sceneName.name;
@@ -15,8 +15,8 @@ public class SceneChange : ScriptableObject
         SceneManager.LoadScene(sceneName);
     }
 
-    public void OnTriggerEnter()
-    {
-        LoadScene(scene);
-    }
+    //public void OnTriggerEnter()
+    //{
+    //    LoadScene(scene);
+    //}
 }

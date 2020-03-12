@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterControls : MonoBehaviour
@@ -36,6 +37,11 @@ public class CharacterControls : MonoBehaviour
         {
             //This is where you either set the switch to true to deactivate gates
             //also plug into Motherboard when in trigger area, and boot health to full
+        }
+
+        if (position.y <= -400)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

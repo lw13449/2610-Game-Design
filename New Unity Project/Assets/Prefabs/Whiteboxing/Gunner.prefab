@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5347899148812891422}
   - component: {fileID: 3999805467230337313}
   - component: {fileID: 6759967196293211503}
+  - component: {fileID: 5154259797429730542}
   m_Layer: 11
   m_Name: Gunner
   m_TagString: Untagged
@@ -156,7 +157,7 @@ MonoBehaviour:
   enemy: {fileID: -7006128382876682332}
   character: {fileID: 2442721673463515027, guid: fe046aee4c2e9d74fb28304f5a0451ca,
     type: 3}
-  combat: {fileID: 0}
+  combat: {fileID: 6759967196293211503}
 --- !u!114 &3999805467230337313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,10 +172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 20
   damage:
-    baseValue: 0
+    baseValue: 10
   shield:
     baseValue: 0
-  healthBar: {fileID: 0}
 --- !u!114 &6759967196293211503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,3 +189,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackSpeed: 1
   attackDelay: 1
+--- !u!114 &5154259797429730542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8129421289838817464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3690fe1c1d49eab625689e7aae4292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+  player: {fileID: 0}
+  myStats: {fileID: 3999805467230337313}

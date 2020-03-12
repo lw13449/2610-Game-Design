@@ -37,6 +37,11 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 3999805467230337313, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6100227080859275416, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
         type: 3}
       propertyPath: m_Name

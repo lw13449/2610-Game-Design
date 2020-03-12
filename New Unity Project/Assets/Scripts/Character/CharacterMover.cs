@@ -15,15 +15,15 @@ public class CharacterMover : ScriptableObject
         position.z = moveSpeed * Input.GetAxis("Vertical");
         position.y -= gravity;
 
-        if (Input.GetButton("Jump") && jumpData.value < jumpData.maxValue)
+        if (Input.GetButton("Jump"))
         {
             position.y = jumpSpeed;
-            jumpData.value++;
+            //jumpData.value++;
         }
-        else if (controller.isGrounded)
-        {
-            position.y = 0;
-        }
+        //else if (controller.isGrounded)
+        //{
+        //    position.y = 0;
+        //}
 
         controller.Move(position * Time.deltaTime);
     }

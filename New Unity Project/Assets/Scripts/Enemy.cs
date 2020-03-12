@@ -29,8 +29,8 @@ public class Enemy : MonoBehaviour
 
     public void Update()
     {
-        float distance = Vector3.Distance(character.transform.position, transform.position);
-        enemy.destination = character.transform.position;
+        float distance = Vector3.Distance(target.position, transform.position);
+        //enemy.destination = character.transform.position;
         //Call Navmesh agent to start attacking player when in the same area
         if (distance <= lookRadius)
         {

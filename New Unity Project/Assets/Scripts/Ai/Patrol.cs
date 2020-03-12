@@ -13,8 +13,6 @@ public class Patrol : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        //agent.autoBraking = false;
-        //so agent doesn't slow down when reaching the destination
         GoToNextPoint();
     }
 

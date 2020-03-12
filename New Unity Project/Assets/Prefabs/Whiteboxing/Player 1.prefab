@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2442721671974421870}
   - component: {fileID: 2442721671974421871}
   - component: {fileID: 2442721671974421868}
+  - component: {fileID: 4280119112182977687}
   m_Layer: 10
   m_Name: Sphere
   m_TagString: Untagged
@@ -91,6 +92,24 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4280119112182977687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2442721671974421866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5adab6e2cb4621ade2538ac8b1ebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  damage:
+    baseValue: 0
+  shield:
+    baseValue: 0
+  healthBar: {fileID: 0}
 --- !u!1 &2442721672250481263
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +215,8 @@ GameObject:
   - component: {fileID: 1265645163077184411}
   - component: {fileID: 4432469032766940240}
   - component: {fileID: 81803813420087784}
-  - component: {fileID: 554797356679847250}
+  - component: {fileID: 4210849391610976356}
+  - component: {fileID: 7143620371386294304}
   m_Layer: 10
   m_Name: Player 1
   m_TagString: Untagged
@@ -294,7 +314,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &554797356679847250
+--- !u!114 &4210849391610976356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,14 +323,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 2442721673463515027}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5471e384305e48a4b764b30306eaaca0, type: 3}
+  m_Script: {fileID: 11500000, guid: d476cf7026da4d6080da837b1e98f218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7143620371386294304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2442721673463515027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5adab6e2cb4621ade2538ac8b1ebb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
   damage:
     baseValue: 0
   shield:
-    baseValue: 5
+    baseValue: 2
   healthBar: {fileID: 0}
 --- !u!1001 &6595744491369828487
 PrefabInstance:

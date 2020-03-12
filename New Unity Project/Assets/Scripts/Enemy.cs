@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour
     //public float startAttackPause;
     public NavMeshAgent enemy;
     public GameObject character;
+
+    public CharacterCombat combat;
     
 
     public void Start()
@@ -22,6 +24,7 @@ public class Enemy : MonoBehaviour
         target = character.transform;
         character = GameObject.Find("Player");
         enemy = GetComponent<NavMeshAgent>();
+        combat = GetComponent<CharacterCombat>();
     }
 
     public void Update()
@@ -36,7 +39,11 @@ public class Enemy : MonoBehaviour
 
         if (distance <= enemy.stoppingDistance)
         {
-            //Attack the target
+            CharacterStats targetStats = target.GetComponent<CharacterStats>();
+            if (targetStats != null)
+            {
+                combat.Attack(targetStats);
+            }
             FaceTarget();
         }
         

@@ -7,7 +7,7 @@ public class Interactable : MonoBehaviour
 
     public virtual void Interact()
     {
-        Debug.Log("Interacting with item");
+        //Debug.Log("Interacting with item");
     }
 
     public void OnDrawGizmosSelected()

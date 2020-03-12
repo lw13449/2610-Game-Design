@@ -15,6 +15,7 @@
           </e>
           <e p="Character" t="Include">
             <e p="CharacterAttack.cs" t="Include" />
+            <e p="CharacterCombat.cs" t="Include" />
             <e p="CharacterControls.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
             <e p="CharacterStats.cs" t="Include" />
@@ -34,6 +35,8 @@
           <e p="DoorSwitch.cs" t="Include" />
           <e p="DoWork.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
+          <e p="EnemyAttack.cs" t="Include" />
+          <e p="EnemyStats.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="IDs" t="Include">

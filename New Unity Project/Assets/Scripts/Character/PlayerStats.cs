@@ -1,12 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : CharacterStats
 {
-    
-    public void Start()
+    public override void Die()
     {
-        
+        base.Die();
+        //Kill the player
+        //death animation
+        //audio for death
+        //respawn
+        KillPlayer();
+    }
+    public void KillPlayer()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

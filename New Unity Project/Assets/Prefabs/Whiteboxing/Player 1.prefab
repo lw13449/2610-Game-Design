@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 1265645163077184411}
   - component: {fileID: 4432469032766940240}
   - component: {fileID: 81803813420087784}
+  - component: {fileID: 554797356679847250}
   m_Layer: 10
   m_Name: Player 1
   m_TagString: Untagged
@@ -293,6 +294,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &554797356679847250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2442721673463515027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5471e384305e48a4b764b30306eaaca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  damage:
+    baseValue: 0
+  shield:
+    baseValue: 5
+  healthBar: {fileID: 0}
 --- !u!1001 &6595744491369828487
 PrefabInstance:
   m_ObjectHideFlags: 0

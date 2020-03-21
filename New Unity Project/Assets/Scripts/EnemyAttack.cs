@@ -9,6 +9,7 @@ public class EnemyAttack : Interactable
 
     public void Start()
     {
+        player = GameObject.Find("Player");
         myStats = GetComponent<CharacterStats>();
     }
 

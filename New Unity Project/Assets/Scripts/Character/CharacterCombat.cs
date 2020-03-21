@@ -28,6 +28,7 @@ public class CharacterCombat : MonoBehaviour
         if (attackCoolDown <= 0f)
         {
             StartCoroutine(DoDamage(targetStats, attackDelay));
+            
             if (OnAttack != null)
             {
                 OnAttack();

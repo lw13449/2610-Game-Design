@@ -23,13 +23,18 @@ public class CharacterAttack : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.X))
             {
                 characterAnim.SetTrigger("Attack");
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, whatIsEnemy);
-                for (int i = 0; i < enemiesToDamage.Length; i++)
-                {
-                    enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
-                }
+                
+
+                //Collider[] enemiesToDamage = Physics.OverlapSphere(attackPosition.position, attackRange, whatIsEnemy);
+                //for (int i = 0; i < enemiesToDamage.Length; i++)
+                //{
+                //    Debug.Log("Player Attacks");
+                //    enemiesToDamage[i].GetComponent<EnemyController>().TakeDamage(damage);
+                //}
+                
                 timeBtwAttack = startTimeBtwAttack;
             }
+            
         }
         else
         {

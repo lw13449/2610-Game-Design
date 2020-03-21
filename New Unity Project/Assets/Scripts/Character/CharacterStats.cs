@@ -3,7 +3,7 @@
 public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int currentHealth { get; private set; }
+    public int currentHealth { get; set; }
     public Stat damage;
     public Stat shield;
 
@@ -29,9 +29,11 @@ public class CharacterStats : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        //This subtracts the defense of the shield
         damage -= shield.GetValue();
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
         
+        //takes damage
         currentHealth -= damage;
         Debug.Log(transform.name + "takes" + damage + "damage.");
         if (currentHealth <= 0)

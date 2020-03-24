@@ -13,6 +13,7 @@
             <e p="MoveTo.cs" t="Include" />
             <e p="Patrol.cs" t="Include" />
           </e>
+          <e p="BossController.cs" t="Include" />
           <e p="Character" t="Include">
             <e p="AttachToPlatform.cs" t="Include" />
             <e p="CharacterAttack.cs" t="Include" />

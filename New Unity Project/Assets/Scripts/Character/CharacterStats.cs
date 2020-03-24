@@ -50,5 +50,12 @@ public class CharacterStats : MonoBehaviour
         //respawn at the starting position or last save
         Debug.Log(transform.name + "died.");
     }
-    
+
+    public void BoostHealth()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            currentHealth = maxHealth;
+        }
+    }
 }

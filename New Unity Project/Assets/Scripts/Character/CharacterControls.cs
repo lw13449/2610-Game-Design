@@ -4,41 +4,42 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterControls : MonoBehaviour
 {
-    private Vector3 position;
-    private CharacterController _controller;
-    private Vector3 rotation;
-
-    public float moveSpeed = 10f, gravity = 9.81f, jumpSpeed = 80f;
-    public float rotateSpeed = 2;
+    private Vector3 position, rotation;
+    private CharacterController controller;
     
+    public float moveSpeed = 100f,  gravity = 9.81f, jumpSpeed = 60f, rotationSpeed = 3f;
+    private int jumpCount;
+    public int jumpCountMax = 2;
+    
+    // Start is called before the first frame update
     void Start()
     {
-        _controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (_controller.isGrounded)
-        {
-            position = new Vector3(0, 0, Input.GetAxis("Vertical")*moveSpeed);
-            rotation.y = Input.GetAxis("Horizontal") * rotateSpeed;
-            transform.Rotate(rotation);
-            position = transform.TransformDirection(position * moveSpeed * Time.deltaTime);
-        }
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            position.y += jumpSpeed;
-        }
+        position.x = moveSpeed*Input.GetAxis("Horizontal");
+        position.z = moveSpeed*Input.GetAxis("Vertical");
         position.y -= gravity;
-        _controller.Move(position * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.K))
+        if (controller.isGrounded)
         {
-            //This is where you either set the switch to true to deactivate gates
-            //also plug into Motherboard when in trigger area, and boot health to full
+            position.y = 0;
+            //rotation.y = rotationSpeed * Input.GetAxis("Horizontal");
+            //controller.transform.Rotate(rotation);
+            jumpCount = 0;
         }
-
+        
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        {
+            position.y = jumpSpeed;
+            jumpCount++;
+        }
+        
+        controller.Move(position*Time.deltaTime);
+        
         if (position.y <= -400)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

@@ -14,4 +14,9 @@ public class DoorSwitch : MonoBehaviour
         door.transform.position = new Vector3(0, 10, 0);
         switchAnimation.SetTrigger("Open Door");
     }
+
+    public void KillBoss()
+    {
+        
+    }
 }

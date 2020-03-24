@@ -5284,16 +5284,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 34101066}
-    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
-        type: 3}
-      propertyPath: m_StoppingDistance
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: -5293477658607525374, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
         type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 34101066}
+    - target: {fileID: -7006128382876682332, guid: dbefc17c0d94b5940a6fc9c39676e5d2,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbefc17c0d94b5940a6fc9c39676e5d2, type: 3}
 --- !u!4 &1466711465 stripped

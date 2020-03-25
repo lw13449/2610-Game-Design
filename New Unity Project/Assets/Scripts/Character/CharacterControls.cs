@@ -4,10 +4,10 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterControls : MonoBehaviour
 {
-    private Vector3 position, rotation;
+    private Vector3 position = Vector3.zero;
     private CharacterController controller;
     
-    public float moveSpeed = 100f,  gravity = 9.81f, jumpSpeed = 60f, rotationSpeed = 3f;
+    public float moveSpeed = 100f,  gravity = 9.81f, jumpSpeed = 60f;
     private int jumpCount;
     public int jumpCountMax = 2;
     
@@ -20,15 +20,20 @@ public class CharacterControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        position.x = moveSpeed*Input.GetAxis("Horizontal");
-        position.z = moveSpeed*Input.GetAxis("Vertical");
+        position.x = Input.GetAxis("Horizontal") * moveSpeed;
+        position.z = Input.GetAxis("Vertical") * moveSpeed;
+        if (position.x != 0)
+        {
+            if (position.z != 0)
+            {
+                transform.forward = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            }
+        }
         position.y -= gravity;
 
         if (controller.isGrounded)
         {
             position.y = 0;
-            //rotation.y = rotationSpeed * Input.GetAxis("Horizontal");
-            //controller.transform.Rotate(rotation);
             jumpCount = 0;
         }
         

@@ -220,6 +220,7 @@ MonoBehaviour:
     baseValue: 10
   shield:
     baseValue: 0
+  healthBar: {fileID: 0}
 --- !u!114 &6759967196293211503
 MonoBehaviour:
   m_ObjectHideFlags: 0

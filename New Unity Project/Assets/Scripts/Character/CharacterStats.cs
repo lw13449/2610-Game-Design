@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterStats : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class CharacterStats : MonoBehaviour
     public int currentHealth { get; set; }
     public Stat damage;
     public Stat shield;
+    public Image healthBar;
 
     //public HealthBar healthBar;
 
@@ -35,6 +37,7 @@ public class CharacterStats : MonoBehaviour
         
         //takes damage
         currentHealth -= damage;
+        healthBar.fillAmount = currentHealth;
         Debug.Log(transform.name + "takes" + damage + "damage.");
         if (currentHealth <= 0)
         {

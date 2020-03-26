@@ -1,12 +1,12 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 [RequireComponent(typeof(CharacterStats))]
 public class EnemyAttack : Interactable
 {
     public GameObject player;
     public CharacterStats myStats;
-
     public void Start()
     {
         player = GameObject.Find("Player");

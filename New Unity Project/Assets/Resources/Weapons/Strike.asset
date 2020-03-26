@@ -40,5 +40,5 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   characterAnim: {fileID: 0}
-  enemyHealth: 0
+  enemyHealth: -10
   obj: {fileID: 298529590786951849, guid: 5f938d74611a477428bc515a19758d1a, type: 3}

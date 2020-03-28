@@ -34,7 +34,18 @@ public class CharacterAttack : MonoBehaviour
                 
                 timeBtwAttack = startTimeBtwAttack;
             }
-            
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                characterAnim.SetTrigger("Fury Attack");
+                timeBtwAttack = startTimeBtwAttack;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                characterAnim.SetTrigger("Smash");
+                timeBtwAttack = startTimeBtwAttack;
+            }
         }
         else
         {

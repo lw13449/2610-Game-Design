@@ -56,6 +56,7 @@
           <e p="Projectile.cs" t="Include" />
           <e p="SceneChangerBehaviour.cs" t="Include" />
           <e p="SceneChangerObj.cs" t="Include" />
+          <e p="ShowUI.cs" t="Include" />
           <e p="Spawning.cs" t="Include" />
           <e p="TriggerAttack.cs" t="Include" />
           <e p="TriggerEventBehaviour.cs" t="Include" />

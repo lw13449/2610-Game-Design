@@ -9,8 +9,6 @@ public class CharacterStats : MonoBehaviour
     public Stat shield;
     public Image healthBar;
 
-    //public HealthBar healthBar;
-
     private void Awake()
     {
         currentHealth = maxHealth;
@@ -43,7 +41,6 @@ public class CharacterStats : MonoBehaviour
         {
             Die();
         }
-        //healthBar.SetHealth(currentHealth);
     }
 
     public virtual void Die()
@@ -59,6 +56,7 @@ public class CharacterStats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             currentHealth = maxHealth;
+            healthBar.fillAmount = currentHealth;
         }
     }
 }

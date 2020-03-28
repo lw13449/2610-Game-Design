@@ -7,6 +7,11 @@ public class BossController : MonoBehaviour
     public float lookRadius;
     private Transform target;
 
+    private float timeBtwShots;
+    public float startTimeBtwShots;
+
+    public GameObject projectile;
+
     private Animator anim;
     public GameObject player;
     public GameObject lastDoorSwitch;
@@ -18,6 +23,7 @@ public class BossController : MonoBehaviour
         target = player.transform;
         player = GameObject.Find("Player");
         combat = GetComponent<CharacterCombat>();
+        timeBtwShots = startTimeBtwShots;
     }
 
     public void Update()
@@ -30,6 +36,15 @@ public class BossController : MonoBehaviour
             if (targetStats != null)
             {
                 combat.Attack(targetStats);
+                if (timeBtwShots <= 0)
+                {
+                    Instantiate(projectile, target.position, Quaternion.identity);
+                    timeBtwShots = startTimeBtwShots;
+                }
+                else
+                {
+                    timeBtwShots -= Time.deltaTime;
+                }
             }
             FaceTarget();
         }

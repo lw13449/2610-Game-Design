@@ -5,13 +5,14 @@ public class AttachToPlatform : MonoBehaviour
 {
     //public NameID platformId;
     //This goes on the player
+    public GameObject platform;
     private void OnTriggerEnter(Collider other)
     {
         //var nameIdObj = other.GetComponent<IdBehaviour>().nameIdObj;
-        //if (nameIdObj != null &&)
-        //{
-        //    transform.parent = other.transform;
-        //}
+        if (other == platform)
+        {
+            transform.parent = other.transform;
+        }
         transform.parent = other.transform;
     }
 

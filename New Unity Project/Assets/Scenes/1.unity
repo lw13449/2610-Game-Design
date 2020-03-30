@@ -3020,6 +3020,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 702583893}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &725452099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6893988206809324078, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1198765489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &753632030
 GameObject:
   m_ObjectHideFlags: 0
@@ -6887,7 +6893,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TriggerEnterEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 725452099}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   TriggerExitEvent:
@@ -7006,6 +7023,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 378416333}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1198765491}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BoostHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 504075704839321674, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Name
+      value: Motherboard
+      objectReference: {fileID: 0}
     - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
         type: 3}
       propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.size
@@ -7045,31 +7087,6 @@ PrefabInstance:
         type: 3}
       propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1198765491}
-    - target: {fileID: 0}
-      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BoostHealth
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 504075704839321674, guid: af12783a30b70064ca6326d825374226,
-        type: 3}
-      propertyPath: m_Name
-      value: Motherboard
       objectReference: {fileID: 0}
     - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
         type: 3}

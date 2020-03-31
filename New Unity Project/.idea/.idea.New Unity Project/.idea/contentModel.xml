@@ -21,7 +21,6 @@
             <e p="CharacterControls.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
             <e p="CharacterStats.cs" t="Include" />
-            <e p="HealthBar.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
             <e p="PlayerOnPlatform.cs" t="Include" />
             <e p="PlayerStats.cs" t="Include" />
@@ -41,6 +40,7 @@
           <e p="EnemyStats.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
           <e p="IDs" t="Include">
             <e p="BehaviourID.cs" t="Include" />
             <e p="FloatMathSystem.cs" t="Include" />

@@ -189,7 +189,9 @@ MonoBehaviour:
   maxHealth: 100
   damage:
     baseValue: 0
-  shield:
+  furyAttack:
+    baseValue: 0
+  smash:
     baseValue: 0
 --- !u!1 &2442721672250481263
 GameObject:
@@ -410,8 +412,10 @@ MonoBehaviour:
   maxHealth: 100
   damage:
     baseValue: 10
-  shield:
-    baseValue: 2
+  furyAttack:
+    baseValue: 10
+  smash:
+    baseValue: 5
 --- !u!114 &-9140989711713526160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,6 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe4f77f8cd14c029593ad5ca5424ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  platform: {fileID: 0}
 --- !u!114 &5461917701952115091
 MonoBehaviour:
   m_ObjectHideFlags: 0

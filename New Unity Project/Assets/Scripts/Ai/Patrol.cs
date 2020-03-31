@@ -31,7 +31,7 @@ public class Patrol : MonoBehaviour
 
     public void Update()
     {
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        if (!agent.pathPending && agent.remainingDistance < 40f)
         {
             GoToNextPoint();
         }

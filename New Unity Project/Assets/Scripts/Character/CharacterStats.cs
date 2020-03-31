@@ -6,8 +6,12 @@ public class CharacterStats : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth { get; set; }
     public Stat damage;
-    public Stat shield;
-    public Image healthBar;
+    //public Stat shield;
+
+    public Stat furyAttack;
+
+    public Stat smash;
+    //public Image healthBar;
 
     private void Awake()
     {
@@ -21,21 +25,32 @@ public class CharacterStats : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            TakeDamage(10);
-        }
+        
     }
 
     public void TakeDamage(int damage)
     {
         //This subtracts the defense of the shield
-        damage -= shield.GetValue();
-        damage = Mathf.Clamp(damage, 0, int.MaxValue);
+        if (Input.GetKey(KeyCode.C))
+        {
+            damage -= damage;
+            damage = Mathf.Clamp(damage, 0, int.MaxValue);
+        }
+        //damage = Mathf.Clamp(damage, 0, int.MaxValue);
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            Debug.Log("Hammer Smash");
+            damage += smash.GetValue();
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            Debug.Log("Fury Attack");
+            damage += furyAttack.GetValue();
+        }
         
         //takes damage
         currentHealth -= damage;
-        healthBar.fillAmount = currentHealth;
+        //healthBar.fillAmount = currentHealth;
         Debug.Log(transform.name + "takes" + damage + "damage.");
         if (currentHealth <= 0)
         {
@@ -56,7 +71,7 @@ public class CharacterStats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             currentHealth = maxHealth;
-            healthBar.fillAmount = currentHealth;
+            //healthBar.fillAmount = currentHealth;
         }
     }
 }

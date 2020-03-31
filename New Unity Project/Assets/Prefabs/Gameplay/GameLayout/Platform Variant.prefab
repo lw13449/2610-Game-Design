@@ -10,13 +10,13 @@ PrefabInstance:
     - target: {fileID: 5864022837314628633, guid: 53434ab6655f3e9469554528f2a86561,
         type: 3}
       propertyPath: m_Name
-      value: Platform
+      value: Platform Variant
       objectReference: {fileID: 0}
-    - target: {fileID: -698953230356745789, guid: 53434ab6655f3e9469554528f2a86561,
+    - target: {fileID: 5864022837314628633, guid: 53434ab6655f3e9469554528f2a86561,
         type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 8836860b9c0afa1488a79a15bace0a56, type: 2}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 5864022837314628637, guid: 53434ab6655f3e9469554528f2a86561,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72,5 +72,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -698953230356745789, guid: 53434ab6655f3e9469554528f2a86561,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8836860b9c0afa1488a79a15bace0a56, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53434ab6655f3e9469554528f2a86561, type: 3}

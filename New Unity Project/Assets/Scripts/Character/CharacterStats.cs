@@ -50,6 +50,7 @@ public class CharacterStats : MonoBehaviour
         
         //takes damage
         currentHealth -= damage;
+        //Change the player color when they are hit;
         //healthBar.fillAmount = currentHealth;
         Debug.Log(transform.name + "takes" + damage + "damage.");
         if (currentHealth <= 0)

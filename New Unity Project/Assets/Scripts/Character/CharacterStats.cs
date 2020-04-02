@@ -70,9 +70,10 @@ public class CharacterStats : MonoBehaviour
 
     public void BoostHealth()
     {
+        currentHealth = maxHealth;
         if (Input.GetKeyDown(KeyCode.K))
         {
-            currentHealth = maxHealth;
+            //currentHealth = maxHealth;
             //healthBar.fillAmount = currentHealth;
         }
     }

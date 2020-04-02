@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class HealthNumberScript : MonoBehaviour
 {
-    public FloatData healthValue;
+    public PlayerStats player;
+    //public FloatData healthValue;
 
     private Text health;
 
@@ -17,6 +18,6 @@ public class HealthNumberScript : MonoBehaviour
 
     public void Update()
     {
-        health.text = "health" + healthValue.value;
+        health.text = "health" + player.currentHealth;
     }
 }

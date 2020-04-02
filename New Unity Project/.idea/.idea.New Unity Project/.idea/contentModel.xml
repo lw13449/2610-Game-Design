@@ -34,6 +34,7 @@
             <e p="Lists.cs" t="Include" />
             <e p="WeaponCollectable.cs" t="Include" />
           </e>
+          <e p="DataStorage.cs" t="Include" />
           <e p="DoorSwitch.cs" t="Include" />
           <e p="DoWork.cs" t="Include" />
           <e p="EnemyAttack.cs" t="Include" />
@@ -62,6 +63,7 @@
           <e p="SceneChangerObj.cs" t="Include" />
           <e p="ShowUI.cs" t="Include" />
           <e p="Spawning.cs" t="Include" />
+          <e p="TransformBehaviour.cs" t="Include" />
           <e p="TriggerAttack.cs" t="Include" />
           <e p="TriggerEventBehaviour.cs" t="Include" />
           <e p="WeaponPickUp.cs" t="Include" />

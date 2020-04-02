@@ -11,7 +11,7 @@ public class CharacterStats : MonoBehaviour
     public Stat furyAttack;
 
     public Stat smash;
-    //public Image healthBar;
+    public Animator characterAnim;
 
     private void Awake()
     {
@@ -51,6 +51,7 @@ public class CharacterStats : MonoBehaviour
         //takes damage
         currentHealth -= damage;
         //Change the player color when they are hit;
+        characterAnim.SetTrigger("TakeDamage");
         //healthBar.fillAmount = currentHealth;
         Debug.Log(transform.name + "takes" + damage + "damage.");
         if (currentHealth <= 0)

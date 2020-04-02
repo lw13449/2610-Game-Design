@@ -14,7 +14,9 @@ public class Healthbar : MonoBehaviour
 
     public void Update()
     {
-        var healthPercentage = player.currentHealth / player.maxHealth;
-        healthBarImage.fillAmount = healthPercentage;
+        float healthPercentage = player.currentHealth / player.maxHealth;
+        healthBarImage.transform.localScale =
+            new Vector3(Mathf.Clamp(healthPercentage, 0f, 1f), healthBarImage.transform.localScale.y, healthPercentage);
+        //healthBarImage.fillAmount = healthPercentage;
     }
 }

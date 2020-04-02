@@ -7796,6 +7796,11 @@ PrefabInstance:
       propertyPath: damage.baseValue
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: characterAnim
+      value: 
+      objectReference: {fileID: 1198765492}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
 --- !u!4 &1198765490 stripped
@@ -7816,6 +7821,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5adab6e2cb4621ade2538ac8b1ebb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1198765492 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 81803813420087784, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1198765489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1201657733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13286,6 +13297,56 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -246.63239
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 92.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383814277296, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1330267606515387267, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_RootOrder
@@ -13294,7 +13355,7 @@ PrefabInstance:
     - target: {fileID: 5040997074831129583, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4333015307007510440, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
@@ -13310,6 +13371,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383998086064, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916090383998086064, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -197.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38407cdfa4366664d8be1c6631699656, type: 3}

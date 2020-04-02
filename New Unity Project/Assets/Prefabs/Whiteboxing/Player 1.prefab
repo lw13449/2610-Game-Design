@@ -193,6 +193,7 @@ MonoBehaviour:
     baseValue: 0
   smash:
     baseValue: 0
+  characterAnim: {fileID: 0}
 --- !u!1 &2442721672250481263
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +417,7 @@ MonoBehaviour:
     baseValue: 10
   smash:
     baseValue: 5
+  characterAnim: {fileID: 81803813420087784}
 --- !u!114 &-9140989711713526160
 MonoBehaviour:
   m_ObjectHideFlags: 0

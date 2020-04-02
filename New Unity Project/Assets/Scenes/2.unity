@@ -554,6 +554,11 @@ PrefabInstance:
       propertyPath: shield.baseValue
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: characterAnim
+      value: 
+      objectReference: {fileID: 257549165}
     m_RemovedComponents:
     - {fileID: -9140989711713526160, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
@@ -566,6 +571,12 @@ Transform:
 --- !u!1 &257549164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2442721673463515027, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 257549162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &257549165 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 81803813420087784, guid: fe046aee4c2e9d74fb28304f5a0451ca,
     type: 3}
   m_PrefabInstance: {fileID: 257549162}
   m_PrefabAsset: {fileID: 0}

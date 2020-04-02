@@ -322,7 +322,7 @@ Transform:
   m_Children:
   - {fileID: 2442721671974421869}
   - {fileID: 2442721672250481262}
-  - {fileID: 1239885428722662586}
+  - {fileID: 6595744491369828492}
   - {fileID: 3491436631002461889}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTimeBtwAttack: 1
-  attackPosition: {fileID: 1239885428722662586}
+  attackPosition: {fileID: 6595744491369828492}
   attackRange: 7
   whatIsEnemy:
     serializedVersion: 2
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 100
   gravity: 9.81
-  jumpSpeed: 100
+  jumpSpeed: 300
   jumpCountMax: 2
 --- !u!1001 &6595744491369828487
 PrefabInstance:
@@ -516,7 +516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f938d74611a477428bc515a19758d1a, type: 3}
---- !u!4 &1239885428722662586 stripped
+--- !u!4 &6595744491369828492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5385249146974563389, guid: 5f938d74611a477428bc515a19758d1a,
     type: 3}

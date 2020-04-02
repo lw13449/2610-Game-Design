@@ -45,7 +45,7 @@ public class CharacterControls : MonoBehaviour
         
         controller.Move(position*Time.deltaTime);
         
-        if (position.y <= -400)
+        if (position.y <= -1000)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }

@@ -2035,9 +2035,11 @@ MonoBehaviour:
   maxHealth: 100
   damage:
     baseValue: 0
-  shield:
+  furyAttack:
     baseValue: 0
-  healthBar: {fileID: 0}
+  smash:
+    baseValue: 0
+  characterAnim: {fileID: 0}
 --- !u!114 &386547161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2680,6 +2682,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 85
       objectReference: {fileID: 0}
+    - target: {fileID: 4456575574558052025, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1925805881}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38407cdfa4366664d8be1c6631699656, type: 3}
 --- !u!114 &492660244 stripped
@@ -7203,7 +7210,7 @@ PrefabInstance:
     - target: {fileID: 577005785773054106, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.976296
+      value: 0.97629607
       objectReference: {fileID: 0}
     - target: {fileID: 577005785773054106, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
         type: 3}
@@ -7248,7 +7255,7 @@ PrefabInstance:
     - target: {fileID: 577005785718492812, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.976296
+      value: 0.97629607
       objectReference: {fileID: 0}
     - target: {fileID: 577005785718492812, guid: 29eb19fdfb4a3a84f8aada239f56fed3,
         type: 3}
@@ -9029,16 +9036,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: jumpSpeed
-      value: 200
-      objectReference: {fileID: 0}
     - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 492660244}
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
 --- !u!4 &1925805879 stripped

@@ -4654,12 +4654,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 702583893}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &725452099 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6893988206809324078, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 1198765489}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &753632030
 GameObject:
   m_ObjectHideFlags: 0
@@ -5987,17 +5981,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9c37ca570f7875348ac9cec2711d43ad,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 458.32
+      value: 458.36
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9c37ca570f7875348ac9cec2711d43ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 212.11
+      value: 212.19
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9c37ca570f7875348ac9cec2711d43ad,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 370.95517
+      value: 371.43
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9c37ca570f7875348ac9cec2711d43ad,
         type: 3}
@@ -7636,11 +7630,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6893988206809324078, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2442721673463515026, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7696,15 +7685,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    - target: {fileID: 4432469032766940240, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
-      propertyPath: moveSpeed
-      value: 75
+      propertyPath: whatIsEnemy.m_Bits
+      value: 2048
       objectReference: {fileID: 0}
-    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    - target: {fileID: 4432469032766940240, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
-      propertyPath: jumpSpeed
-      value: 200
+      propertyPath: damage
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 442882383}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: characterAnim
+      value: 
+      objectReference: {fileID: 1198765492}
+    - target: {fileID: 2442721671974421869, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2442721671974421869, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2442721671974421869, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1239885428722662586, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
@@ -7756,51 +7780,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4432469032766940240, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    - target: {fileID: 6893988206809324078, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
-      propertyPath: whatIsEnemy.m_Bits
-      value: 2048
-      objectReference: {fileID: 0}
-    - target: {fileID: 4432469032766940240, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: damage
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2442721671974421869, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: m_LocalRotation.y
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2442721671974421869, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
+      propertyPath: moveSpeed
+      value: 75
       objectReference: {fileID: 0}
-    - target: {fileID: 2442721671974421869, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      propertyPath: jumpSpeed
+      value: 200
       objectReference: {fileID: 0}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 442882383}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: maxHealth
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: damage.baseValue
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: characterAnim
-      value: 
-      objectReference: {fileID: 1198765492}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
 --- !u!4 &1198765490 stripped
@@ -8513,99 +8507,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416553031}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1440639020
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1440639021}
-  - component: {fileID: 1440639023}
-  - component: {fileID: 1440639022}
-  - component: {fileID: 1440639024}
-  m_Layer: 5
-  m_Name: health score
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1440639021
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440639020}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3916090383921537535}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195, y: 101}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1440639022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440639020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: health
---- !u!222 &1440639023
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440639020}
-  m_CullTransparentMesh: 0
---- !u!114 &1440639024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440639020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feb1e3dd6bc848a4afc0da323686ee36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1198765491}
 --- !u!1 &1450633918
 GameObject:
   m_ObjectHideFlags: 0
@@ -11742,7 +11643,7 @@ MonoBehaviour:
   TriggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725452099}
+      - m_Target: {fileID: 0}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -13490,6 +13391,16 @@ PrefabInstance:
       propertyPath: m_UiScaleMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5900382821171203680, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456575574558052025, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1198765491}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38407cdfa4366664d8be1c6631699656, type: 3}
 --- !u!224 &3916090383921537535 stripped

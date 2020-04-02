@@ -369,6 +369,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: Find the right switch to open the gate.
       objectReference: {fileID: 0}
+    - target: {fileID: 4456575574558052025, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 691851109}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38407cdfa4366664d8be1c6631699656, type: 3}
 --- !u!1 &202757135 stripped
@@ -1333,6 +1338,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 691851106}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &691851109 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 691851106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691851108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5adab6e2cb4621ade2538ac8b1ebb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &736252096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2733,6 +2750,11 @@ PrefabInstance:
       value: 112.60211
       objectReference: {fileID: 0}
     - target: {fileID: 3734254343464057802, guid: 8308506d8e40edd459f94c9592bc85e7,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3453326908952396284, guid: 8308506d8e40edd459f94c9592bc85e7,
         type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 5

@@ -5,10 +5,9 @@ using UnityEngine;
 public class SceneChange : ScriptableObject
 {
     //private Object scene;
-    public void LoadScene(Object sceneName)
+    public void LoadScene(int index)
     {
-        var newName = sceneName.name;
-        SceneManager.LoadScene(newName);
+        SceneManager.LoadScene(index);
     }
     public void GoToNextScene(string sceneName)
     {

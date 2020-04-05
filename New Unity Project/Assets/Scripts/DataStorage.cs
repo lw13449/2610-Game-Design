@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "DataStorage", menuName = "Data Storage/Data Storage Object")]
+[CreateAssetMenu]
 public class DataStorage : ScriptableObject
 {
     public ScriptableObject data;

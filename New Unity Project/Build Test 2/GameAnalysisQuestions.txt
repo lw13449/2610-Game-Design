@@ -1,0 +1,6 @@
+1. Is the difficulty of the enemies too little?
+2. Are the puzzle/switch mazes too easy? Should I add more complex challenges for the player?
+3. Does the layout feel progressive enough for the audience to understand?
+   Would it be better if there were clear markings for the player to follow?
+4. Were the switches too hard to find, or were they in good places for the player to follow?
+5. Were the controls easy enough to navigate? Did the player move well enough within the game for the controls to make sense?

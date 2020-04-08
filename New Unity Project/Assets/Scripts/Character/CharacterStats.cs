@@ -68,13 +68,20 @@ public class CharacterStats : MonoBehaviour
         Debug.Log(transform.name + "died.");
     }
 
+    public void MotherboardPlugIn()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            BoostHealth();
+        }
+    }
+
     public void BoostHealth()
     {
         currentHealth = maxHealth;
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            //currentHealth = maxHealth;
-            //healthBar.fillAmount = currentHealth;
-        }
+//        if (Input.GetKeyDown(KeyCode.K))
+//        {
+//            currentHealth = maxHealth;
+//        }
     }
 }

@@ -182,7 +182,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  speed: 30
+  speed: 100
 --- !u!114 &-5293477658607525374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,9 +218,11 @@ MonoBehaviour:
   maxHealth: 20
   damage:
     baseValue: 10
-  shield:
+  furyAttack:
     baseValue: 0
-  healthBar: {fileID: 0}
+  smash:
+    baseValue: 0
+  characterAnim: {fileID: 0}
 --- !u!114 &6759967196293211503
 MonoBehaviour:
   m_ObjectHideFlags: 0

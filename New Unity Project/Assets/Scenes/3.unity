@@ -8529,6 +8529,8 @@ Transform:
   - {fileID: 829013331}
   - {fileID: 2072603284}
   - {fileID: 1052344574}
+  - {fileID: 1687606087}
+  - {fileID: 1906820663}
   m_Father: {fileID: 543680077}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11679,6 +11681,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1670520176}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1687606086
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1214813834}
+    m_Modifications:
+    - target: {fileID: 504075704839321674, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Name
+      value: Motherboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2415.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1798
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915025853381417358, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 619901705}
+    - target: {fileID: 2915025853381417358, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BoostHealth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af12783a30b70064ca6326d825374226, type: 3}
+--- !u!4 &1687606087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+    type: 3}
+  m_PrefabInstance: {fileID: 1687606086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1691055747
 GameObject:
   m_ObjectHideFlags: 0
@@ -13420,6 +13507,91 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: -2602186702830354173, guid: 9c37ca570f7875348ac9cec2711d43ad, type: 3}
+--- !u!1001 &1906820662
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1214813834}
+    m_Modifications:
+    - target: {fileID: 504075704839321674, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Name
+      value: Motherboard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -420
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.77758104
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6287827
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 102.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915025853381417358, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 619901705}
+    - target: {fileID: 2915025853381417358, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BoostHealth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af12783a30b70064ca6326d825374226, type: 3}
+--- !u!4 &1906820663 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+    type: 3}
+  m_PrefabInstance: {fileID: 1906820662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1911524151
 GameObject:
   m_ObjectHideFlags: 0

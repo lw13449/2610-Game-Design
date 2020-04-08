@@ -1324,6 +1324,201 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164420622}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &167904676
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 378416333}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1198765491}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BoostHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 504075704839321674, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Name
+      value: Motherboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504075704839321674, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1198765491}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BoostHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 910789378}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -31.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.17789854
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98404884
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -20.495
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904244855231884791, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f092e5468eefa4c49bc72c86a64a633d, type: 2}
+    - target: {fileID: 4374592799872596739, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 40.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374592799872596739, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 35.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780759307226061779, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006274620298944664, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af12783a30b70064ca6326d825374226, type: 3}
+--- !u!4 &167904677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
+    type: 3}
+  m_PrefabInstance: {fileID: 167904676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &167904678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 504075704839321674, guid: af12783a30b70064ca6326d825374226,
+    type: 3}
+  m_PrefabInstance: {fileID: 167904676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &167904679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167904678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5feccedd68f44a69ad5378391edfe474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uIObj: {fileID: 910789378}
+  player: {fileID: 34101066}
 --- !u!1 &184498988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,6 +2239,7 @@ Transform:
   - {fileID: 1800754768}
   - {fileID: 2029300594}
   - {fileID: 544254724}
+  - {fileID: 167904677}
   m_Father: {fileID: 1533218007}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6066,7 +6262,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is a motherboard. Plug in by pressing 'K' to reboost to full health.
+  m_Text: This is a motherboard. Plug in by running into it to reboost to full health.
 --- !u!222 &910789381
 CanvasRenderer:
   m_ObjectHideFlags: 0

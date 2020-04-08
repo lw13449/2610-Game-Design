@@ -120,12 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 94b7fb55a77d9784cb0296d2f49895f0, type: 2}
---- !u!1 &6233604 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6595744491369828481, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-    type: 3}
-  m_PrefabInstance: {fileID: 1198765489}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &19516843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,7 +4007,7 @@ PrefabInstance:
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 214.37999
+      value: 213.74
       objectReference: {fileID: 0}
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}
@@ -4068,7 +4062,7 @@ PrefabInstance:
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.7095346
+      value: 1.2900039
       objectReference: {fileID: 0}
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}
@@ -7811,6 +7805,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 405638630123804021, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
 --- !u!4 &1198765490 stripped
@@ -7834,6 +7833,12 @@ MonoBehaviour:
 --- !u!95 &1198765492 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 81803813420087784, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1198765489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1198765493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6893988206809324078, guid: fe046aee4c2e9d74fb28304f5a0451ca,
     type: 3}
   m_PrefabInstance: {fileID: 1198765489}
   m_PrefabAsset: {fileID: 0}
@@ -11646,61 +11651,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uIObj: {fileID: 758104741}
   player: {fileID: 34101066}
---- !u!114 &1964524595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964524593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5a7ed86549744fa58dacb42f4d105, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TriggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 355365571017555184}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6233604}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  TriggerExitEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 758104741}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1997251717
 GameObject:
   m_ObjectHideFlags: 0
@@ -13077,6 +13027,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 378416333}
     m_Modifications:
+    - target: {fileID: 8906671607896270453, guid: 8b22c6857eaf7d843af097b6c999ce0e,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1198765493}
+    - target: {fileID: 8906671607896270453, guid: 8b22c6857eaf7d843af097b6c999ce0e,
+        type: 3}
+      propertyPath: TriggerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 758104741}
+    - target: {fileID: 8906671607896270453, guid: 8b22c6857eaf7d843af097b6c999ce0e,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     - target: {fileID: 355365570748419638, guid: 8b22c6857eaf7d843af097b6c999ce0e,
         type: 3}
       propertyPath: m_Name
@@ -13149,12 +13114,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b22c6857eaf7d843af097b6c999ce0e, type: 3}
---- !u!1 &355365571017555184 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6053522457006748480, guid: 8b22c6857eaf7d843af097b6c999ce0e,
-    type: 3}
-  m_PrefabInstance: {fileID: 355365571017555183}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3734254341978890637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13489,7 +13448,7 @@ PrefabInstance:
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 214.37999
+      value: 213.95
       objectReference: {fileID: 0}
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}
@@ -13544,7 +13503,7 @@ PrefabInstance:
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.7095346
+      value: 1.6741669
       objectReference: {fileID: 0}
     - target: {fileID: 525207175938127836, guid: e738a242cb236d64ba83e82482f69aac,
         type: 3}

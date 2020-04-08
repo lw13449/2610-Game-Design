@@ -33,6 +33,7 @@ public class CharacterStats : MonoBehaviour
         //This subtracts the defense of the shield
         if (Input.GetKey(KeyCode.C))
         {
+            characterAnim.SetTrigger("Defend");
             damage -= damage;
             damage = Mathf.Clamp(damage, 0, int.MaxValue);
         }

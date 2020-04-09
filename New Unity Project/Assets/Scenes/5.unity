@@ -8029,6 +8029,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3916090384139687160, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4456575574558052025, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: player

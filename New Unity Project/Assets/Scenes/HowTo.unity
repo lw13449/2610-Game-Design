@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Move: \n\nPull Switch:\n\nFight Enemies:\n\nReboost Health:"
+  m_Text: "Move:\n\nJump: \n\nPull Switch:\n\nFight Enemies:\n\nDefend/Use Shield:"
 --- !u!222 &5120910
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -299,7 +299,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -149, y: 102}
+  m_AnchoredPosition: {x: -149, y: 117}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &226154681
@@ -324,10 +324,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -520,13 +520,16 @@ MonoBehaviour:
   m_Text: 'ArrowKeys
 
 
-    G
+    Spacebar
+
+
+    Z
 
 
     X
 
 
-    K'
+    C'
 --- !u!222 &653391793
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     private void Start()
     {
         GameIsPaused = false;
+        Resume();
     }
 
     void Update()

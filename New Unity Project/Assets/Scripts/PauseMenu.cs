@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -30,9 +31,12 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = false;
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseMenuUI.SetActive(false);
+            Time.timeScale = 1f;
+            GameIsPaused = false;
+        }
     }
 
     void Pause()

@@ -13672,6 +13672,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD
       objectReference: {fileID: 0}
+    - target: {fileID: 3916090384139687162, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3916090383814277297, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_FillAmount
@@ -13897,6 +13902,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1198765491}
+    - target: {fileID: 2110205085689002079, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875424297350814693, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38407cdfa4366664d8be1c6631699656, type: 3}
 --- !u!224 &3916090383921537535 stripped

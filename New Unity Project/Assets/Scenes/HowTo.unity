@@ -155,7 +155,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -87, y: -43}
-  m_SizeDelta: {x: 160, y: 150}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5120909
 MonoBehaviour:
@@ -190,7 +190,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Move:\n\nJump: \n\nPull Switch:\n\nFight Enemies:\n\nDefend/Use Shield:"
+  m_Text: "Move:\n\nJump: \n\nPull Switch:\n\nFight Enemies:\n\nDefend/Use Shield:\n\nPause
+    Game:"
 --- !u!222 &5120910
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -482,7 +483,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 263, y: -38}
-  m_SizeDelta: {x: 160, y: 150}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653391792
 MonoBehaviour:
@@ -529,7 +530,10 @@ MonoBehaviour:
     X
 
 
-    C'
+    C
+
+
+    Esc'
 --- !u!222 &653391793
 CanvasRenderer:
   m_ObjectHideFlags: 0

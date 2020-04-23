@@ -35,7 +35,7 @@ public class BossController : MonoBehaviour
             CharacterStats targetStats = target.GetComponent<CharacterStats>();
             if (targetStats != null)
             {
-                combat.Attack(targetStats);
+                //combat.Attack(targetStats);
                 if (timeBtwShots <= 0)
                 {
                     Instantiate(projectile, target.position, Quaternion.identity);

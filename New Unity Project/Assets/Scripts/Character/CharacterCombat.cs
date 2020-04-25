@@ -9,7 +9,7 @@ public class CharacterCombat : MonoBehaviour
     private float attackCoolDown = 0f;
     
     private CharacterStats myStats;
-    public float attackDelay = .6f;
+    public float attackDelay = 1f;
 
     public event System.Action OnAttack;
 

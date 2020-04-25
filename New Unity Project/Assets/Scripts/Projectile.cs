@@ -36,6 +36,6 @@ public class Projectile : MonoBehaviour
 
     public void DestroyProjectile()
     {
-        Destroy(gameObject);
+        DestroyImmediate(gameObject, true);
     }
 }

@@ -15,6 +15,7 @@ public class BossController : MonoBehaviour
     private Animator anim;
     public GameObject player;
     public GameObject lastDoorSwitch;
+    public Animator bossAnim;
 
     public CharacterCombat combat;
 
@@ -35,10 +36,14 @@ public class BossController : MonoBehaviour
             CharacterStats targetStats = target.GetComponent<CharacterStats>();
             if (targetStats != null)
             {
-                //combat.Attack(targetStats);
+//                combat.Attack(targetStats);
+//                bossAnim.SetTrigger("Attack");
+                
+                
                 if (timeBtwShots <= 0)
                 {
-                    Instantiate(projectile, target.position, Quaternion.identity);
+                    //combat.Attack(targetStats);
+                    bossAnim.SetTrigger("Attack");
                     timeBtwShots = startTimeBtwShots;
                 }
                 else
@@ -66,5 +71,11 @@ public class BossController : MonoBehaviour
         //Instantiate(sparkEffect, transform.position, Quaternion.identity);
         Debug.Log("damage Taken");
         bossStats.currentHealth -= damage;
+    }
+    public void Attack()
+    {
+        CharacterStats targetStats = target.GetComponent<CharacterStats>();
+        combat.Attack(targetStats);
+        //Instantiate(projectile, target.position + (target.position - transform.position).normalized, Quaternion.LookRotation(target.position - transform.position));
     }
 }

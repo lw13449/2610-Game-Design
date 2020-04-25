@@ -20,6 +20,11 @@ public class HealthNumberScript : MonoBehaviour
     public void Update()
     {
         health.text = "HEALTH " + player.currentHealth;
+
+        if (player.currentHealth <= 100)
+        {
+            health.color = Color.green;
+        }
         
         if (player.currentHealth <= 60)
         {

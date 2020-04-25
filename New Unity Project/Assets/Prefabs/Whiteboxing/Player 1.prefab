@@ -173,6 +173,88 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &701471661001454680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4049524190893483619}
+  - component: {fileID: 3736923228491225527}
+  - component: {fileID: 4457098585871863786}
+  - component: {fileID: 4717671538345037181}
+  m_Layer: 12
+  m_Name: smashAttackTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4049524190893483619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701471661001454680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.7, y: -8.2, z: 17.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2442721673463515026}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3736923228491225527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701471661001454680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 15, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4457098585871863786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701471661001454680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5a7ed86549744fa58dacb42f4d105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  TriggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &4717671538345037181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701471661001454680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4af3493c988c742898ed905acff92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDamage: 2
+  attack: {fileID: 4432469032766940240}
 --- !u!1 &2442721671974421866
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +367,9 @@ MonoBehaviour:
   smash:
     baseValue: 0
   characterAnim: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  healthUIOne: {fileID: 0}
+  healthUITwo: {fileID: 0}
 --- !u!1 &2442721672250481263
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +501,8 @@ Transform:
   - {fileID: 1239885428722662586}
   - {fileID: 3491436631002461889}
   - {fileID: 119352794476933554}
+  - {fileID: 723434340452642325}
+  - {fileID: 4049524190893483619}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -456,6 +543,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   damage: 10
+  furyDamage: 30
+  smashDamage: 15
   characterAnim: {fileID: 81803813420087784}
 --- !u!95 &81803813420087784
 Animator:
@@ -510,6 +599,9 @@ MonoBehaviour:
   smash:
     baseValue: 5
   characterAnim: {fileID: 81803813420087784}
+  respawnPoint: {fileID: 0}
+  healthUIOne: {fileID: 0}
+  healthUITwo: {fileID: 0}
 --- !u!114 &-9140989711713526160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,7 +614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe4f77f8cd14c029593ad5ca5424ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 0}
 --- !u!114 &5461917701952115091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,6 +630,88 @@ MonoBehaviour:
   gravity: 9.81
   jumpSpeed: 300
   jumpCountMax: 2
+--- !u!1 &5459372142665118166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723434340452642325}
+  - component: {fileID: 8600476561960051169}
+  - component: {fileID: 9034006703826123651}
+  - component: {fileID: 1100890074792337680}
+  m_Layer: 12
+  m_Name: furyAttackTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &723434340452642325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459372142665118166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.7, y: -8.2, z: 17.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2442721673463515026}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8600476561960051169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459372142665118166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 15, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9034006703826123651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459372142665118166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5a7ed86549744fa58dacb42f4d105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  TriggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1100890074792337680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459372142665118166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4af3493c988c742898ed905acff92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDamage: 2
+  attack: {fileID: 4432469032766940240}
 --- !u!1001 &6595744491369828487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -546,11 +719,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2442721673463515026}
     m_Modifications:
-    - target: {fileID: 298529590786951849, guid: 5f938d74611a477428bc515a19758d1a,
-        type: 3}
-      propertyPath: m_Name
-      value: Cylinder
-      objectReference: {fileID: 0}
     - target: {fileID: 5385249146974563389, guid: 5f938d74611a477428bc515a19758d1a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -605,6 +773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -35.842003
+      objectReference: {fileID: 0}
+    - target: {fileID: 298529590786951849, guid: 5f938d74611a477428bc515a19758d1a,
+        type: 3}
+      propertyPath: m_Name
+      value: Cylinder
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f938d74611a477428bc515a19758d1a, type: 3}

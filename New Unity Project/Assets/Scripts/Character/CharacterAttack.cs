@@ -14,6 +14,8 @@ public class CharacterAttack : MonoBehaviour
     public float attackRange;
     public LayerMask whatIsEnemy;
     public int damage;
+    public int furyDamage;
+    public int smashDamage;
     public Animator characterAnim;
     public void Update()
     {
@@ -23,6 +25,7 @@ public class CharacterAttack : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.X))
             {
                 characterAnim.SetTrigger("Attack");
+                damage = damage;
                 
 
                 //Collider[] enemiesToDamage = Physics.OverlapSphere(attackPosition.position, attackRange, whatIsEnemy);
@@ -38,12 +41,14 @@ public class CharacterAttack : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F))
             {
                 characterAnim.SetTrigger("Fury Attack");
+                damage = furyDamage;
                 timeBtwAttack = startTimeBtwAttack;
             }
 
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 characterAnim.SetTrigger("Smash");
+                damage = smashDamage;
                 timeBtwAttack = startTimeBtwAttack;
             }
         }

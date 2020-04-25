@@ -713,6 +713,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 831234701}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: furyAttack.baseValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: smash.baseValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: shield.baseValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: characterAnim
+      value: 
+      objectReference: {fileID: 257549165}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: healthUIOne
+      value: 
+      objectReference: {fileID: 831234706}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: healthUITwo
+      value: 
+      objectReference: {fileID: 831234705}
     - target: {fileID: 2442721673463515026, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -768,40 +803,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 831234701}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: furyAttack.baseValue
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: smash.baseValue
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: shield.baseValue
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: characterAnim
-      value: 
-      objectReference: {fileID: 257549165}
-    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 75
-      objectReference: {fileID: 0}
     - target: {fileID: 405638630123804021, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487286539228367067, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 75
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -9140989711713526160, guid: fe046aee4c2e9d74fb28304f5a0451ca, type: 3}
@@ -2384,16 +2394,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5040997074831129583, guid: 38407cdfa4366664d8be1c6631699656,
+    - target: {fileID: 3916090384139687160, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4333015307007510440, guid: 38407cdfa4366664d8be1c6631699656,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 257549168}
     - target: {fileID: 3411693830987822693, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_RootOrder
@@ -2402,18 +2407,38 @@ PrefabInstance:
     - target: {fileID: 306784453282962647, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 3916090384139687160, guid: 38407cdfa4366664d8be1c6631699656,
+    - target: {fileID: 2110205085689002079, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875424297350814693, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040997074831129583, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456575574558052025, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 257549168}
+    - target: {fileID: 4333015307007510440, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 257549168}
+    - target: {fileID: 1602746782452316178, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38407cdfa4366664d8be1c6631699656, type: 3}
 --- !u!114 &831234701 stripped
@@ -2443,6 +2468,18 @@ GameObject:
 --- !u!1 &831234704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1820997934657108602, guid: 38407cdfa4366664d8be1c6631699656,
+    type: 3}
+  m_PrefabInstance: {fileID: 831234700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &831234705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1711651978928133831, guid: 38407cdfa4366664d8be1c6631699656,
+    type: 3}
+  m_PrefabInstance: {fileID: 831234700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &831234706 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5573240375486659410, guid: 38407cdfa4366664d8be1c6631699656,
     type: 3}
   m_PrefabInstance: {fileID: 831234700}
   m_PrefabAsset: {fileID: 0}

@@ -58,6 +58,7 @@
           <e p="Interactable.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
+          <e p="PreservedGameObj.cs" t="Include" />
           <e p="Projectile.cs" t="Include" />
           <e p="Quit.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />

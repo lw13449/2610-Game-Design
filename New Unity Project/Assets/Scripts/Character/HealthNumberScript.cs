@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +19,15 @@ public class HealthNumberScript : MonoBehaviour
 
     public void Update()
     {
-        health.text = "health" + player.currentHealth;
+        health.text = "HEALTH " + player.currentHealth;
+        
+        if (player.currentHealth <= 60)
+        {
+            health.color = Color.yellow;
+        }
+        if (player.currentHealth <= 30)
+        {
+            health.color = Color.red;
+        }
     }
 }

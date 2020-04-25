@@ -359,15 +359,20 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5040997074831129583, guid: 38407cdfa4366664d8be1c6631699656,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3916090384139687160, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_UiScaleMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875424297350814693, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040997074831129583, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456575574558052025, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
@@ -384,6 +389,18 @@ PrefabInstance:
 --- !u!1 &202757135 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8445266093783475306, guid: 38407cdfa4366664d8be1c6631699656,
+    type: 3}
+  m_PrefabInstance: {fileID: 202757134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &202757136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1711651978928133831, guid: 38407cdfa4366664d8be1c6631699656,
+    type: 3}
+  m_PrefabInstance: {fileID: 202757134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &202757137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5573240375486659410, guid: 38407cdfa4366664d8be1c6631699656,
     type: 3}
   m_PrefabInstance: {fileID: 202757134}
   m_PrefabAsset: {fileID: 0}
@@ -1269,6 +1286,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: healthUIOne
+      value: 
+      objectReference: {fileID: 202757137}
+    - target: {fileID: 7143620371386294304, guid: fe046aee4c2e9d74fb28304f5a0451ca,
+        type: 3}
+      propertyPath: healthUITwo
+      value: 
+      objectReference: {fileID: 202757136}
     - target: {fileID: 2442721673463515026, guid: fe046aee4c2e9d74fb28304f5a0451ca,
         type: 3}
       propertyPath: m_LocalPosition.x

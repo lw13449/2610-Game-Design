@@ -6932,6 +6932,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Motherboard
       objectReference: {fileID: 0}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 769871926}
+    - target: {fileID: 6474737579739428917, guid: af12783a30b70064ca6326d825374226,
+        type: 3}
+      propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BoostHealth
+      objectReference: {fileID: 0}
     - target: {fileID: 6597929361947921534, guid: af12783a30b70064ca6326d825374226,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8315,12 +8325,12 @@ PrefabInstance:
     - target: {fileID: 306784453282962647, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2110205085689002079, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4875424297350814693, guid: 38407cdfa4366664d8be1c6631699656,
         type: 3}
@@ -8337,6 +8347,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 769871926}
+    - target: {fileID: 4445083491489788651, guid: 38407cdfa4366664d8be1c6631699656,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38407cdfa4366664d8be1c6631699656, type: 3}
 --- !u!224 &1344079926 stripped

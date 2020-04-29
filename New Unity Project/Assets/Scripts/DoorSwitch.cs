@@ -12,7 +12,7 @@ public class DoorSwitch : MonoBehaviour
     public void OpenDoor()
     {
         Debug.Log("Door is open.");
-        door.transform.position = new Vector3(0, 10, 0);
+        door.transform.position = new Vector3(0, 20, 0);
         switchAnimation.SetTrigger("On");
     }
 
